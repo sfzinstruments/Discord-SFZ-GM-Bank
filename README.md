@@ -21,7 +21,7 @@ This will be affecting the preset design which, the original used samples maybe 
 The sources of the samples may expand along this project goes on.
 We list here all the sources that have been used and more details will be added later :
 - Versilian Studios VCSL
-- Versilian Studios VCSO CE
+- Versilian Studios VSCO CE
 
 ## Contributors
 - Jeff Learman
