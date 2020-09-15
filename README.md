@@ -24,4 +24,5 @@ We list here all the sources that have been used and more details will be added 
 - Versilian Studios VSCO CE
 
 ## Contributors
+- Kinwie
 - Jeff Learman
