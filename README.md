@@ -19,7 +19,7 @@ This will be affecting the preset design which, the original used samples maybe 
 
 ## Sources
 The sources of the samples may expand along this project goes on.
-Here are list of the sources that consudered to be used:
+Here are list of the sources that considered to be used:
 - Versilian Studios VCSL
 - Versilian Studios VSCO CE
 - Salamander Grand Piano
