@@ -8,8 +8,8 @@ So this project try to create one SFZ GM bank with good quality by using availab
 Then the finished product will be shared free for everybody who like use SFZ and GM format.
 
 ## Target engines
-- Plogue Sforzando
-- Paul Ferrand sfizz
+- Plogue sforzando
+- SFZTools sfizz
 - Un4seen BASSMIDI
 
 ## Samples size
