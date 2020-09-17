@@ -23,6 +23,7 @@ Here are list of the sources that considered to be used:
 - Versilian Studios VCSL
 - Versilian Studios VSCO CE
 - Salamander Grand Piano
+- freesound.org
 - MSLP Samples
 
 ## Contributors
