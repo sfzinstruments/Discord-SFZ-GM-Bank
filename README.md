@@ -1,5 +1,5 @@
 # The Discord SFZ General MIDI Bank
-A free General MIDI soundbank in native SFZ format
+A free and opensource General MIDI soundbank in native SFZ format
 
 
 ## Purpose
