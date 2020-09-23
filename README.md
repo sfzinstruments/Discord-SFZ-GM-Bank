@@ -30,3 +30,5 @@ Here are list of the sources that considered to be used:
 ## Contributors
 - Kinwie
 - Jeff Learman
+
+[Wiki]: https://github.com/kinwie/Discord-SFZ-GM-Bank/wiki
