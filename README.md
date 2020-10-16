@@ -30,7 +30,9 @@ Here are list of the sources that considered to be used:
 ## Contributors
 - Kinwie
 - Jeff Learman
-- Sam Gossner
-- DSmolken
+- Sam Gossner (Versilian Studios)
+- DSmolken (Karoryfer)
+- David Viens (Plogue)
+- Greg Schlaepfer (Orange Tree Samples)
 
 [Wiki]: https://github.com/kinwie/Discord-SFZ-GM-Bank/wiki
