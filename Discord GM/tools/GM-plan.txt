@@ -1,0 +1,151 @@
+# Input for mkgm.sh script
+#
+# Format:
+# type | prog | vol | sfzfile | gm-name | sf-name
+#
+# where
+#   type is Melodic or Drums (selects the outer folder)
+#   prog is ppp[:b] 1-based as per spec, but will be 0-based in the SFZ file
+#      where ppp is 3-digit, 1-based program number
+#      optional b is bank number, 2-7
+#
+Melodic |   1 |  0   | 001-Acoustic Grand Piano     | Acoustic Grand Piano     | Salamander Grand
+Melodic |   2 |  7.5 | 002-Bright Acoustic Piano    | Bright Acoustic Piano    | VCSL Yamaha Upright
+Melodic |   3 |  4.5 | 003-Electric Grand Piano     | Electric Grand Piano     | Greg Sullivan Yamaha CP80
+Melodic |   1 |  0   | 001-Acoustic Grand Piano     | Acoustic Grand Piano     | none
+Melodic |   2 |  0   | 002-Bright Acoustic Piano    | Bright Acoustic Piano    | none
+Melodic |   3 |  0   | 003-Electric Grand Piano     | Electric Grand Piano     | none
+Melodic |   4 |  0   | 004-Honky-tonk Piano         | Honky-tonk Piano         | none
+Melodic |   5 |  0   | 005-Electric Piano 1         | Electric Piano 1         | jRhodes
+Melodic |   6 |  0   | 006-Electric Piano 2         | Electric Piano 2         | none
+Melodic |   7 |  0   | 007-Harpsichord              | Harpsichord              | none
+Melodic |   8 |  0   | 008-Clavinet                 | Clavinet                 | none
+Melodic |   9 |  0   | 009-Celesta                  | Celesta                  | none
+Melodic |  10 |  0   | 010-Glockenspiel             | Glockenspiel             | none
+Melodic |  11 |  0   | 011-Music Box                | Music Box                | none
+Melodic |  12 |  0   | 012-Vibraphone               | Vibraphone               | none
+Melodic |  13 |  0   | 013-Marimba                  | Marimba                  | none
+Melodic |  14 |  0   | 014-Xylophone                | Xylophone                | none
+Melodic |  15 |  0   | 015-Tubular Bells            | Tubular Bells            | none
+Melodic |  16 |  0   | 016-Dulcimer                 | Dulcimer                 | none
+Melodic |  17 |  0   | 017-Drawbar Organ            | Drawbar Organ            | none
+Melodic |  18 |  0   | 018-Percussive Organ         | Percussive Organ         | none
+Melodic |  19 |  0   | 019-Rock Organ               | Rock Organ               | none
+Melodic |  20 |  0   | 020-Church Organ             | Church Organ             | none
+Melodic |  21 |  0   | 021-Reed Organ               | Reed Organ               | none
+Melodic |  22 |  0   | 022-Accordion                | Accordion                | none
+Melodic |  23 |  0   | 023-Harmonica                | Harmonica                | none
+Melodic |  24 |  0   | 024-Tango Accordion          | Tango Accordion          | none
+Melodic |  25 |  0   | 025-Acoustic Guitar (nylon)  | Acoustic Guitar (nylon)  | none
+Melodic |  26 |  6   | 026-Acoustic Guitar (steel)  | Acoustic Guitar (steel)  | jMartin HD28
+Melodic |  27 |  0   | 027-Electric Guitar (jazz)   | Electric Guitar (jazz)   | none
+Melodic |  28 |  0   | 028-Electric Guitar (clean)  | Electric Guitar (clean)  | none
+Melodic |  29 |  0   | 029-Electric Guitar (muted)  | Electric Guitar (muted)  | none
+Melodic |  30 |  0   | 030-Overdriven Guitar        | Overdriven Guitar        | none
+Melodic |  31 |  0   | 031-Distortion Guitar        | Distortion Guitar        | none
+Melodic |  32 |  0   | 032-Guitar Harmonics         | Guitar Harmonics         | none
+Melodic |  33 |  0   | 033-Acoustic Bass            | Acoustic Bass            | none
+Melodic |  34 |  0   | 034-Electric Bass (finger)   | Electric Bass (finger)   | none
+Melodic |  35 |  0   | 035-Electric Bass (pick)     | Electric Bass (pick)     | none
+Melodic |  36 |  0   | 036-Fretless Bass            | Fretless Bass            | none
+Melodic |  37 |  0   | 037-Slap Bass 1              | Slap Bass 1              | none
+Melodic |  38 |  0   | 038-Slap Bass 2              | Slap Bass 2              | none
+Melodic |  39 |  0   | 039-Synth Bass 1             | Synth Bass 1             | none
+Melodic |  40 |  0   | 040-Synth Bass 2             | Synth Bass 2             | none
+Melodic |  41 |  0   | 041-Violin                   | Violin                   | none
+Melodic |  42 |  0   | 042-Viola                    | Viola                    | none
+Melodic |  43 |  0   | 043-Cello                    | Cello                    | none
+Melodic |  44 |  0   | 044-Contrabass               | Contrabass               | none
+Melodic |  45 |  0   | 045-Tremolo Strings          | Tremolo Strings          | none
+Melodic |  46 |  0   | 046-Pizzicato Strings        | Pizzicato Strings        | none
+Melodic |  47 |  0   | 047-Orchestral Harp          | Orchestral Harp          | none
+Melodic |  48 |  0   | 048-Timpani                  | Timpani                  | none
+Melodic |  49 |  0   | 049-String Ensemble 1        | String Ensemble 1        | none
+Melodic |  50 |  0   | 050-String Ensemble 2        | String Ensemble 2        | none
+Melodic |  51 |  0   | 051-Synth Strings 1          | Synth Strings 1          | none
+Melodic |  52 |  0   | 052-Synth Strings 2          | Synth Strings 2          | none
+Melodic |  53 |  0   | 053-Choir Aahs               | Choir Aahs               | none
+Melodic |  54 |  0   | 054-Voice Oohs               | Voice Oohs               | none
+Melodic |  55 |  0   | 055-Synth Choir              | Synth Choir              | none
+Melodic |  56 |  0   | 056-Orchestra Hit            | Orchestra Hit            | none
+Melodic |  57 |  0   | 057-Trumpet                  | Trumpet                  | none
+Melodic |  58 |  0   | 058-Trombone                 | Trombone                 | none
+Melodic |  59 |  0   | 059-Tuba                     | Tuba                     | none
+Melodic |  60 |  0   | 060-Muted Trumpet            | Muted Trumpet            | none
+Melodic |  61 |  0   | 061-French Horn              | French Horn              | none
+Melodic |  62 |  0   | 062-Brass Section            | Brass Section            | none
+Melodic |  63 |  0   | 063-Synth Brass 1            | Synth Brass 1            | none
+Melodic |  64 |  0   | 064-Synth Brass 2            | Synth Brass 2            | none
+Melodic |  65 |  0   | 065-Soprano Sax              | Soprano Sax              | none
+Melodic |  66 |  0   | 066-Alto Sax                 | Alto Sax                 | none
+Melodic |  67 |  0   | 067-Tenor Sax                | Tenor Sax                | none
+Melodic |  68 |  0   | 068-Baritone Sax             | Baritone Sax             | none
+Melodic |  69 |  0   | 069-Oboe                     | Oboe                     | none
+Melodic |  70 |  0   | 070-English Horn             | English Horn             | none
+Melodic |  71 |  0   | 071-Bassoon                  | Bassoon                  | none
+Melodic |  72 |  0   | 072-Clarinet                 | Clarinet                 | none
+Melodic |  73 |  0   | 073-Piccolo                  | Piccolo                  | none
+Melodic |  74 |  0   | 074-Flute                    | Flute                    | none
+Melodic |  75 |  0   | 075-Recorder                 | Recorder                 | none
+Melodic |  76 |  0   | 076-Pan Flute                | Pan Flute                | none
+Melodic |  77 |  0   | 077-Blown bottle             | Blown bottle             | none
+Melodic |  78 |  0   | 078-Shakuhachi               | Shakuhachi               | none
+Melodic |  79 |  0   | 079-Whistle                  | Whistle                  | none
+Melodic |  80 |  0   | 080-Ocarina                  | Ocarina                  | none
+Melodic |  81 |  0   | 081-Lead 1 (square)          | Lead 1 (square)          | none
+Melodic |  82 |  0   | 082-Lead 2 (sawtooth)        | Lead 2 (sawtooth)        | none
+Melodic |  83 |  0   | 083-Lead 3 (calliope)        | Lead 3 (calliope)        | none
+Melodic |  84 |  0   | 084-Lead 4 (chiff)           | Lead 4 (chiff)           | none
+Melodic |  85 |  0   | 085-Lead 5 (charang)         | Lead 5 (charang)         | none
+Melodic |  86 |  0   | 086-Lead 6 (voice)           | Lead 6 (voice)           | none
+Melodic |  87 |  0   | 087-Lead 7 (fifths)          | Lead 7 (fifths)          | none
+Melodic |  88 |  0   | 088-Lead 8 (bass + lead)     | Lead 8 (bass + lead)     | none
+Melodic |  89 |  0   | 089-Pad 1 (new age)          | Pad 1 (new age)          | none
+Melodic |  90 |  0   | 090-Pad 2 (warm)             | Pad 2 (warm)             | none
+Melodic |  91 |  0   | 091-Pad 3 (polysynth)        | Pad 3 (polysynth)        | none
+Melodic |  92 |  0   | 092-Pad 4 (choir)            | Pad 4 (choir)            | none
+Melodic |  93 |  0   | 093-Pad 5 (bowed)            | Pad 5 (bowed)            | none
+Melodic |  94 |  0   | 094-Pad 6 (metallic)         | Pad 6 (metallic)         | none
+Melodic |  95 |  0   | 095-Pad 7 (halo)             | Pad 7 (halo)             | none
+Melodic |  96 |  0   | 096-Pad 8 (sweep)            | Pad 8 (sweep)            | none
+Melodic |  97 |  0   | 097-FX 1 (rain)              | FX 1 (rain)              | none
+Melodic |  98 |  0   | 098-FX 2 (soundtrack)        | FX 2 (soundtrack)        | none
+Melodic |  99 |  0   | 099-FX 3 (crystal)           | FX 3 (crystal)           | none
+Melodic | 100 |  0   | 100-FX 4 (atmosphere)        | FX 4 (atmosphere)        | none
+Melodic | 101 |  0   | 101-FX 5 (brightness)        | FX 5 (brightness)        | none
+Melodic | 102 |  0   | 102-FX 6 (goblins)           | FX 6 (goblins)           | none
+Melodic | 103 |  0   | 103-FX 7 (echoes)            | FX 7 (echoes)            | none
+Melodic | 104 |  0   | 104-FX 8 (sci-fi)            | FX 8 (sci-fi)            | none
+Melodic | 105 |  0   | 105-Sitar                    | Sitar                    | none
+Melodic | 106 |  0   | 106-Banjo                    | Banjo                    | none
+Melodic | 107 |  0   | 107-Shamisen                 | Shamisen                 | none
+Melodic | 108 |  0   | 108-Koto                     | Koto                     | none
+Melodic | 109 |  0   | 109-Kalimba                  | Kalimba                  | none
+Melodic | 110 |  0   | 110-Bagpipe                  | Bagpipe                  | none
+Melodic | 111 |  0   | 111-Fiddle                   | Fiddle                   | none
+Melodic | 112 |  0   | 112-Shanai                   | Shanai                   | none
+Melodic | 113 |  0   | 113-Tinkle Bell              | Tinkle Bell              | none
+Melodic | 114 |  0   | 114-Agogo                    | Agogo                    | none
+Melodic | 115 |  0   | 115-Steel Drums              | Steel Drums              | none
+Melodic | 116 |  0   | 116-Woodblock                | Woodblock                | none
+Melodic | 117 |  0   | 117-Taiko Drum               | Taiko Drum               | none
+Melodic | 118 |  0   | 118-Melodic Tom              | Melodic Tom              | none
+Melodic | 119 |  0   | 119-Synth Drum               | Synth Drum               | none
+Melodic | 120 |  0   | 120-Reverse Cymbal           | Reverse Cymbal           | none
+Melodic | 121 |  0   | 121-Guitar Fret Noise        | Guitar Fret Noise        | none
+Melodic | 122 |  0   | 122-Breath Noise             | Breath Noise             | none
+Melodic | 123 |  0   | 123-Seashore                 | Seashore                 | none
+Melodic | 124 |  0   | 124-Bird Tweet               | Bird Tweet               | none
+Melodic | 125 |  0   | 125-Telephone Ring           | Telephone Ring           | none
+Melodic | 126 |  0   | 126-Helicopter               | Helicopter               | none
+Melodic | 127 |  0   | 127-Applause                 | Applause                 | none
+Melodic | 128 |  0   | 128-Gunshot                  | Gunshot                  | none
+Drums   |   1 |  0   | 001-Standard Kit             | Standard Kit             | none
+Drums   |   9 |  0   | 009-Room Kit                 | Room Kit                 | none
+Drums   |  17 |  0   | 017-Power Kit                | Power Kit                | none
+Drums   |  25 |  0   | 025-Electronic Kit           | Electronic Kit           | none
+Drums   |  26 |  0   | 026-TR-808 Kit               | TR-808 Kit               | none
+Drums   |  33 |  0   | 033-Jazz Kit                 | Jazz Kit                 | none
+Drums   |  41 |  0   | 041-Brush Kit                | Brush Kit                | none
+Drums   |  49 |  0   | 049-Orchestra Kit            | Orchestra Kit            | none
+Drums   |  57 |  0   | 057-SFX Kit                  | SFX Kit                  | none

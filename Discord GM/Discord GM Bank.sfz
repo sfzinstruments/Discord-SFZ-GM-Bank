@@ -1,0 +1,202 @@
+
+<global> global_name=Discord GM
+
+// Melodic instrument controls
+
+<control>
+set_cc0=127 label_cc0=Drums/Melodic
+set_cc32=0 label_cc32=Bank Select
+
+set_hdcc73=0.5 label_cc73=Attack (73)
+set_hdcc72=0.5 label_cc72=Release (72)
+
+label_cc76=Vib.Freq set_hdcc76=0.5
+label_cc118=Veltrack set_hdcc118=1
+
+//Controller
+label_cc1=Mod.Wheel (1)
+label_cc129=Chn.Aft
+label_cc11=Expression (11) set_hdcc11=1
+label_cc7=Volume (7) set_hdcc7=0.79
+label_cc10=Pan (10) set_hdcc10=0.5
+
+<global>
+global_label=Bank 9
+locc0=121 hicc0=127
+locc32=0 hicc32=0
+
+ampeg_attack_oncc73=5
+ampeg_attack_curvecc73=1
+ampeg_release_oncc72=5
+ampeg_release_curvecc72=1
+
+pitchlfo_freq_oncc76=10
+fil_veltrack=2400
+amp_veltrack=0
+amp_veltrack_oncc118=100
+
+//Controller
+pitchlfo_depth_oncc1=50
+pitchlfo_depth_oncc129=50
+amplitude_oncc11=100
+amplitude_oncc7=100
+pan=-100
+pan_oncc10=200
+
+// Melodic instruments
+
+<master> default_path=Melodic loprog=0 hiprog=0 master_volume=0 #include "Melodic/001-Acoustic Grand Piano.sfz" master_label=1:1 - Acoustic Grand Piano - Salamander Grand
+<master> default_path=Melodic loprog=1 hiprog=1 master_volume=7.5 #include "Melodic/002-Bright Acoustic Piano.sfz" master_label=1:2 - Bright Acoustic Piano - VCSL Yamaha Upright
+<master> default_path=Melodic loprog=2 hiprog=2 master_volume=4.5 #include "Melodic/003-Electric Grand Piano.sfz" master_label=1:3 - Electric Grand Piano - Greg Sullivan Yamaha CP80
+<master> default_path=Melodic loprog=0 hiprog=0 master_volume=0 #include "Melodic/001-Acoustic Grand Piano.sfz" master_label=1:1 - Acoustic Grand Piano - none
+<master> default_path=Melodic loprog=1 hiprog=1 master_volume=0 #include "Melodic/002-Bright Acoustic Piano.sfz" master_label=1:2 - Bright Acoustic Piano - none
+<master> default_path=Melodic loprog=2 hiprog=2 master_volume=0 #include "Melodic/003-Electric Grand Piano.sfz" master_label=1:3 - Electric Grand Piano - none
+<master> default_path=Melodic loprog=3 hiprog=3 master_volume=0 #include "Melodic/004-Honky-tonk Piano.sfz" master_label=1:4 - Honky-tonk Piano - none
+<master> default_path=Melodic loprog=4 hiprog=4 master_volume=0 #include "Melodic/005-Electric Piano 1.sfz" master_label=1:5 - Electric Piano 1 - jRhodes
+<master> default_path=Melodic loprog=5 hiprog=5 master_volume=0 #include "Melodic/006-Electric Piano 2.sfz" master_label=1:6 - Electric Piano 2 - none
+<master> default_path=Melodic loprog=6 hiprog=6 master_volume=0 #include "Melodic/007-Harpsichord.sfz" master_label=1:7 - Harpsichord - none
+<master> default_path=Melodic loprog=7 hiprog=7 master_volume=0 #include "Melodic/008-Clavinet.sfz" master_label=1:8 - Clavinet - none
+<master> default_path=Melodic loprog=8 hiprog=8 master_volume=0 #include "Melodic/009-Celesta.sfz" master_label=1:9 - Celesta - none
+<master> default_path=Melodic loprog=9 hiprog=9 master_volume=0 #include "Melodic/010-Glockenspiel.sfz" master_label=1:10 - Glockenspiel - none
+<master> default_path=Melodic loprog=10 hiprog=10 master_volume=0 #include "Melodic/011-Music Box.sfz" master_label=1:11 - Music Box - none
+<master> default_path=Melodic loprog=11 hiprog=11 master_volume=0 #include "Melodic/012-Vibraphone.sfz" master_label=1:12 - Vibraphone - none
+<master> default_path=Melodic loprog=12 hiprog=12 master_volume=0 #include "Melodic/013-Marimba.sfz" master_label=1:13 - Marimba - none
+<master> default_path=Melodic loprog=13 hiprog=13 master_volume=0 #include "Melodic/014-Xylophone.sfz" master_label=1:14 - Xylophone - none
+<master> default_path=Melodic loprog=14 hiprog=14 master_volume=0 #include "Melodic/015-Tubular Bells.sfz" master_label=1:15 - Tubular Bells - none
+<master> default_path=Melodic loprog=15 hiprog=15 master_volume=0 #include "Melodic/016-Dulcimer.sfz" master_label=1:16 - Dulcimer - none
+<master> default_path=Melodic loprog=16 hiprog=16 master_volume=0 #include "Melodic/017-Drawbar Organ.sfz" master_label=1:17 - Drawbar Organ - none
+<master> default_path=Melodic loprog=17 hiprog=17 master_volume=0 #include "Melodic/018-Percussive Organ.sfz" master_label=1:18 - Percussive Organ - none
+<master> default_path=Melodic loprog=18 hiprog=18 master_volume=0 #include "Melodic/019-Rock Organ.sfz" master_label=1:19 - Rock Organ - none
+<master> default_path=Melodic loprog=19 hiprog=19 master_volume=0 #include "Melodic/020-Church Organ.sfz" master_label=1:20 - Church Organ - none
+<master> default_path=Melodic loprog=20 hiprog=20 master_volume=0 #include "Melodic/021-Reed Organ.sfz" master_label=1:21 - Reed Organ - none
+<master> default_path=Melodic loprog=21 hiprog=21 master_volume=0 #include "Melodic/022-Accordion.sfz" master_label=1:22 - Accordion - none
+<master> default_path=Melodic loprog=22 hiprog=22 master_volume=0 #include "Melodic/023-Harmonica.sfz" master_label=1:23 - Harmonica - none
+<master> default_path=Melodic loprog=23 hiprog=23 master_volume=0 #include "Melodic/024-Tango Accordion.sfz" master_label=1:24 - Tango Accordion - none
+<master> default_path=Melodic loprog=24 hiprog=24 master_volume=0 #include "Melodic/025-Acoustic Guitar (nylon).sfz" master_label=1:25 - Acoustic Guitar (nylon) - none
+<master> default_path=Melodic loprog=25 hiprog=25 master_volume=6 #include "Melodic/026-Acoustic Guitar (steel).sfz" master_label=1:26 - Acoustic Guitar (steel) - jMartin HD28
+<master> default_path=Melodic loprog=26 hiprog=26 master_volume=0 #include "Melodic/027-Electric Guitar (jazz).sfz" master_label=1:27 - Electric Guitar (jazz) - none
+<master> default_path=Melodic loprog=27 hiprog=27 master_volume=0 #include "Melodic/028-Electric Guitar (clean).sfz" master_label=1:28 - Electric Guitar (clean) - none
+<master> default_path=Melodic loprog=28 hiprog=28 master_volume=0 #include "Melodic/029-Electric Guitar (muted).sfz" master_label=1:29 - Electric Guitar (muted) - none
+<master> default_path=Melodic loprog=29 hiprog=29 master_volume=0 #include "Melodic/030-Overdriven Guitar.sfz" master_label=1:30 - Overdriven Guitar - none
+<master> default_path=Melodic loprog=30 hiprog=30 master_volume=0 #include "Melodic/031-Distortion Guitar.sfz" master_label=1:31 - Distortion Guitar - none
+<master> default_path=Melodic loprog=31 hiprog=31 master_volume=0 #include "Melodic/032-Guitar Harmonics.sfz" master_label=1:32 - Guitar Harmonics - none
+<master> default_path=Melodic loprog=32 hiprog=32 master_volume=0 #include "Melodic/033-Acoustic Bass.sfz" master_label=1:33 - Acoustic Bass - none
+<master> default_path=Melodic loprog=33 hiprog=33 master_volume=0 #include "Melodic/034-Electric Bass (finger).sfz" master_label=1:34 - Electric Bass (finger) - none
+<master> default_path=Melodic loprog=34 hiprog=34 master_volume=0 #include "Melodic/035-Electric Bass (pick).sfz" master_label=1:35 - Electric Bass (pick) - none
+<master> default_path=Melodic loprog=35 hiprog=35 master_volume=0 #include "Melodic/036-Fretless Bass.sfz" master_label=1:36 - Fretless Bass - none
+<master> default_path=Melodic loprog=36 hiprog=36 master_volume=0 #include "Melodic/037-Slap Bass 1.sfz" master_label=1:37 - Slap Bass 1 - none
+<master> default_path=Melodic loprog=37 hiprog=37 master_volume=0 #include "Melodic/038-Slap Bass 2.sfz" master_label=1:38 - Slap Bass 2 - none
+<master> default_path=Melodic loprog=38 hiprog=38 master_volume=0 #include "Melodic/039-Synth Bass 1.sfz" master_label=1:39 - Synth Bass 1 - none
+<master> default_path=Melodic loprog=39 hiprog=39 master_volume=0 #include "Melodic/040-Synth Bass 2.sfz" master_label=1:40 - Synth Bass 2 - none
+<master> default_path=Melodic loprog=40 hiprog=40 master_volume=0 #include "Melodic/041-Violin.sfz" master_label=1:41 - Violin - none
+<master> default_path=Melodic loprog=41 hiprog=41 master_volume=0 #include "Melodic/042-Viola.sfz" master_label=1:42 - Viola - none
+<master> default_path=Melodic loprog=42 hiprog=42 master_volume=0 #include "Melodic/043-Cello.sfz" master_label=1:43 - Cello - none
+<master> default_path=Melodic loprog=43 hiprog=43 master_volume=0 #include "Melodic/044-Contrabass.sfz" master_label=1:44 - Contrabass - none
+<master> default_path=Melodic loprog=44 hiprog=44 master_volume=0 #include "Melodic/045-Tremolo Strings.sfz" master_label=1:45 - Tremolo Strings - none
+<master> default_path=Melodic loprog=45 hiprog=45 master_volume=0 #include "Melodic/046-Pizzicato Strings.sfz" master_label=1:46 - Pizzicato Strings - none
+<master> default_path=Melodic loprog=46 hiprog=46 master_volume=0 #include "Melodic/047-Orchestral Harp.sfz" master_label=1:47 - Orchestral Harp - none
+<master> default_path=Melodic loprog=47 hiprog=47 master_volume=0 #include "Melodic/048-Timpani.sfz" master_label=1:48 - Timpani - none
+<master> default_path=Melodic loprog=48 hiprog=48 master_volume=0 #include "Melodic/049-String Ensemble 1.sfz" master_label=1:49 - String Ensemble 1 - none
+<master> default_path=Melodic loprog=49 hiprog=49 master_volume=0 #include "Melodic/050-String Ensemble 2.sfz" master_label=1:50 - String Ensemble 2 - none
+<master> default_path=Melodic loprog=50 hiprog=50 master_volume=0 #include "Melodic/051-Synth Strings 1.sfz" master_label=1:51 - Synth Strings 1 - none
+<master> default_path=Melodic loprog=51 hiprog=51 master_volume=0 #include "Melodic/052-Synth Strings 2.sfz" master_label=1:52 - Synth Strings 2 - none
+<master> default_path=Melodic loprog=52 hiprog=52 master_volume=0 #include "Melodic/053-Choir Aahs.sfz" master_label=1:53 - Choir Aahs - none
+<master> default_path=Melodic loprog=53 hiprog=53 master_volume=0 #include "Melodic/054-Voice Oohs.sfz" master_label=1:54 - Voice Oohs - none
+<master> default_path=Melodic loprog=54 hiprog=54 master_volume=0 #include "Melodic/055-Synth Choir.sfz" master_label=1:55 - Synth Choir - none
+<master> default_path=Melodic loprog=55 hiprog=55 master_volume=0 #include "Melodic/056-Orchestra Hit.sfz" master_label=1:56 - Orchestra Hit - none
+<master> default_path=Melodic loprog=56 hiprog=56 master_volume=0 #include "Melodic/057-Trumpet.sfz" master_label=1:57 - Trumpet - none
+<master> default_path=Melodic loprog=57 hiprog=57 master_volume=0 #include "Melodic/058-Trombone.sfz" master_label=1:58 - Trombone - none
+<master> default_path=Melodic loprog=58 hiprog=58 master_volume=0 #include "Melodic/059-Tuba.sfz" master_label=1:59 - Tuba - none
+<master> default_path=Melodic loprog=59 hiprog=59 master_volume=0 #include "Melodic/060-Muted Trumpet.sfz" master_label=1:60 - Muted Trumpet - none
+<master> default_path=Melodic loprog=60 hiprog=60 master_volume=0 #include "Melodic/061-French Horn.sfz" master_label=1:61 - French Horn - none
+<master> default_path=Melodic loprog=61 hiprog=61 master_volume=0 #include "Melodic/062-Brass Section.sfz" master_label=1:62 - Brass Section - none
+<master> default_path=Melodic loprog=62 hiprog=62 master_volume=0 #include "Melodic/063-Synth Brass 1.sfz" master_label=1:63 - Synth Brass 1 - none
+<master> default_path=Melodic loprog=63 hiprog=63 master_volume=0 #include "Melodic/064-Synth Brass 2.sfz" master_label=1:64 - Synth Brass 2 - none
+<master> default_path=Melodic loprog=64 hiprog=64 master_volume=0 #include "Melodic/065-Soprano Sax.sfz" master_label=1:65 - Soprano Sax - none
+<master> default_path=Melodic loprog=65 hiprog=65 master_volume=0 #include "Melodic/066-Alto Sax.sfz" master_label=1:66 - Alto Sax - none
+<master> default_path=Melodic loprog=66 hiprog=66 master_volume=0 #include "Melodic/067-Tenor Sax.sfz" master_label=1:67 - Tenor Sax - none
+<master> default_path=Melodic loprog=67 hiprog=67 master_volume=0 #include "Melodic/068-Baritone Sax.sfz" master_label=1:68 - Baritone Sax - none
+<master> default_path=Melodic loprog=68 hiprog=68 master_volume=0 #include "Melodic/069-Oboe.sfz" master_label=1:69 - Oboe - none
+<master> default_path=Melodic loprog=69 hiprog=69 master_volume=0 #include "Melodic/070-English Horn.sfz" master_label=1:70 - English Horn - none
+<master> default_path=Melodic loprog=70 hiprog=70 master_volume=0 #include "Melodic/071-Bassoon.sfz" master_label=1:71 - Bassoon - none
+<master> default_path=Melodic loprog=71 hiprog=71 master_volume=0 #include "Melodic/072-Clarinet.sfz" master_label=1:72 - Clarinet - none
+<master> default_path=Melodic loprog=72 hiprog=72 master_volume=0 #include "Melodic/073-Piccolo.sfz" master_label=1:73 - Piccolo - none
+<master> default_path=Melodic loprog=73 hiprog=73 master_volume=0 #include "Melodic/074-Flute.sfz" master_label=1:74 - Flute - none
+<master> default_path=Melodic loprog=74 hiprog=74 master_volume=0 #include "Melodic/075-Recorder.sfz" master_label=1:75 - Recorder - none
+<master> default_path=Melodic loprog=75 hiprog=75 master_volume=0 #include "Melodic/076-Pan Flute.sfz" master_label=1:76 - Pan Flute - none
+<master> default_path=Melodic loprog=76 hiprog=76 master_volume=0 #include "Melodic/077-Blown bottle.sfz" master_label=1:77 - Blown bottle - none
+<master> default_path=Melodic loprog=77 hiprog=77 master_volume=0 #include "Melodic/078-Shakuhachi.sfz" master_label=1:78 - Shakuhachi - none
+<master> default_path=Melodic loprog=78 hiprog=78 master_volume=0 #include "Melodic/079-Whistle.sfz" master_label=1:79 - Whistle - none
+<master> default_path=Melodic loprog=79 hiprog=79 master_volume=0 #include "Melodic/080-Ocarina.sfz" master_label=1:80 - Ocarina - none
+<master> default_path=Melodic loprog=80 hiprog=80 master_volume=0 #include "Melodic/081-Lead 1 (square).sfz" master_label=1:81 - Lead 1 (square) - none
+<master> default_path=Melodic loprog=81 hiprog=81 master_volume=0 #include "Melodic/082-Lead 2 (sawtooth).sfz" master_label=1:82 - Lead 2 (sawtooth) - none
+<master> default_path=Melodic loprog=82 hiprog=82 master_volume=0 #include "Melodic/083-Lead 3 (calliope).sfz" master_label=1:83 - Lead 3 (calliope) - none
+<master> default_path=Melodic loprog=83 hiprog=83 master_volume=0 #include "Melodic/084-Lead 4 (chiff).sfz" master_label=1:84 - Lead 4 (chiff) - none
+<master> default_path=Melodic loprog=84 hiprog=84 master_volume=0 #include "Melodic/085-Lead 5 (charang).sfz" master_label=1:85 - Lead 5 (charang) - none
+<master> default_path=Melodic loprog=85 hiprog=85 master_volume=0 #include "Melodic/086-Lead 6 (voice).sfz" master_label=1:86 - Lead 6 (voice) - none
+<master> default_path=Melodic loprog=86 hiprog=86 master_volume=0 #include "Melodic/087-Lead 7 (fifths).sfz" master_label=1:87 - Lead 7 (fifths) - none
+<master> default_path=Melodic loprog=87 hiprog=87 master_volume=0 #include "Melodic/088-Lead 8 (bass + lead).sfz" master_label=1:88 - Lead 8 (bass + lead) - none
+<master> default_path=Melodic loprog=88 hiprog=88 master_volume=0 #include "Melodic/089-Pad 1 (new age).sfz" master_label=1:89 - Pad 1 (new age) - none
+<master> default_path=Melodic loprog=89 hiprog=89 master_volume=0 #include "Melodic/090-Pad 2 (warm).sfz" master_label=1:90 - Pad 2 (warm) - none
+<master> default_path=Melodic loprog=90 hiprog=90 master_volume=0 #include "Melodic/091-Pad 3 (polysynth).sfz" master_label=1:91 - Pad 3 (polysynth) - none
+<master> default_path=Melodic loprog=91 hiprog=91 master_volume=0 #include "Melodic/092-Pad 4 (choir).sfz" master_label=1:92 - Pad 4 (choir) - none
+<master> default_path=Melodic loprog=92 hiprog=92 master_volume=0 #include "Melodic/093-Pad 5 (bowed).sfz" master_label=1:93 - Pad 5 (bowed) - none
+<master> default_path=Melodic loprog=93 hiprog=93 master_volume=0 #include "Melodic/094-Pad 6 (metallic).sfz" master_label=1:94 - Pad 6 (metallic) - none
+<master> default_path=Melodic loprog=94 hiprog=94 master_volume=0 #include "Melodic/095-Pad 7 (halo).sfz" master_label=1:95 - Pad 7 (halo) - none
+<master> default_path=Melodic loprog=95 hiprog=95 master_volume=0 #include "Melodic/096-Pad 8 (sweep).sfz" master_label=1:96 - Pad 8 (sweep) - none
+<master> default_path=Melodic loprog=96 hiprog=96 master_volume=0 #include "Melodic/097-FX 1 (rain).sfz" master_label=1:97 - FX 1 (rain) - none
+<master> default_path=Melodic loprog=97 hiprog=97 master_volume=0 #include "Melodic/098-FX 2 (soundtrack).sfz" master_label=1:98 - FX 2 (soundtrack) - none
+<master> default_path=Melodic loprog=98 hiprog=98 master_volume=0 #include "Melodic/099-FX 3 (crystal).sfz" master_label=1:99 - FX 3 (crystal) - none
+<master> default_path=Melodic loprog=99 hiprog=99 master_volume=0 #include "Melodic/100-FX 4 (atmosphere).sfz" master_label=1:100 - FX 4 (atmosphere) - none
+<master> default_path=Melodic loprog=100 hiprog=100 master_volume=0 #include "Melodic/101-FX 5 (brightness).sfz" master_label=1:101 - FX 5 (brightness) - none
+<master> default_path=Melodic loprog=101 hiprog=101 master_volume=0 #include "Melodic/102-FX 6 (goblins).sfz" master_label=1:102 - FX 6 (goblins) - none
+<master> default_path=Melodic loprog=102 hiprog=102 master_volume=0 #include "Melodic/103-FX 7 (echoes).sfz" master_label=1:103 - FX 7 (echoes) - none
+<master> default_path=Melodic loprog=103 hiprog=103 master_volume=0 #include "Melodic/104-FX 8 (sci-fi).sfz" master_label=1:104 - FX 8 (sci-fi) - none
+<master> default_path=Melodic loprog=104 hiprog=104 master_volume=0 #include "Melodic/105-Sitar.sfz" master_label=1:105 - Sitar - none
+<master> default_path=Melodic loprog=105 hiprog=105 master_volume=0 #include "Melodic/106-Banjo.sfz" master_label=1:106 - Banjo - none
+<master> default_path=Melodic loprog=106 hiprog=106 master_volume=0 #include "Melodic/107-Shamisen.sfz" master_label=1:107 - Shamisen - none
+<master> default_path=Melodic loprog=107 hiprog=107 master_volume=0 #include "Melodic/108-Koto.sfz" master_label=1:108 - Koto - none
+<master> default_path=Melodic loprog=108 hiprog=108 master_volume=0 #include "Melodic/109-Kalimba.sfz" master_label=1:109 - Kalimba - none
+<master> default_path=Melodic loprog=109 hiprog=109 master_volume=0 #include "Melodic/110-Bagpipe.sfz" master_label=1:110 - Bagpipe - none
+<master> default_path=Melodic loprog=110 hiprog=110 master_volume=0 #include "Melodic/111-Fiddle.sfz" master_label=1:111 - Fiddle - none
+<master> default_path=Melodic loprog=111 hiprog=111 master_volume=0 #include "Melodic/112-Shanai.sfz" master_label=1:112 - Shanai - none
+<master> default_path=Melodic loprog=112 hiprog=112 master_volume=0 #include "Melodic/113-Tinkle Bell.sfz" master_label=1:113 - Tinkle Bell - none
+<master> default_path=Melodic loprog=113 hiprog=113 master_volume=0 #include "Melodic/114-Agogo.sfz" master_label=1:114 - Agogo - none
+<master> default_path=Melodic loprog=114 hiprog=114 master_volume=0 #include "Melodic/115-Steel Drums.sfz" master_label=1:115 - Steel Drums - none
+<master> default_path=Melodic loprog=115 hiprog=115 master_volume=0 #include "Melodic/116-Woodblock.sfz" master_label=1:116 - Woodblock - none
+<master> default_path=Melodic loprog=116 hiprog=116 master_volume=0 #include "Melodic/117-Taiko Drum.sfz" master_label=1:117 - Taiko Drum - none
+<master> default_path=Melodic loprog=117 hiprog=117 master_volume=0 #include "Melodic/118-Melodic Tom.sfz" master_label=1:118 - Melodic Tom - none
+<master> default_path=Melodic loprog=118 hiprog=118 master_volume=0 #include "Melodic/119-Synth Drum.sfz" master_label=1:119 - Synth Drum - none
+<master> default_path=Melodic loprog=119 hiprog=119 master_volume=0 #include "Melodic/120-Reverse Cymbal.sfz" master_label=1:120 - Reverse Cymbal - none
+<master> default_path=Melodic loprog=120 hiprog=120 master_volume=0 #include "Melodic/121-Guitar Fret Noise.sfz" master_label=1:121 - Guitar Fret Noise - none
+<master> default_path=Melodic loprog=121 hiprog=121 master_volume=0 #include "Melodic/122-Breath Noise.sfz" master_label=1:122 - Breath Noise - none
+<master> default_path=Melodic loprog=122 hiprog=122 master_volume=0 #include "Melodic/123-Seashore.sfz" master_label=1:123 - Seashore - none
+<master> default_path=Melodic loprog=123 hiprog=123 master_volume=0 #include "Melodic/124-Bird Tweet.sfz" master_label=1:124 - Bird Tweet - none
+<master> default_path=Melodic loprog=124 hiprog=124 master_volume=0 #include "Melodic/125-Telephone Ring.sfz" master_label=1:125 - Telephone Ring - none
+<master> default_path=Melodic loprog=125 hiprog=125 master_volume=0 #include "Melodic/126-Helicopter.sfz" master_label=1:126 - Helicopter - none
+<master> default_path=Melodic loprog=126 hiprog=126 master_volume=0 #include "Melodic/127-Applause.sfz" master_label=1:127 - Applause - none
+<master> default_path=Melodic loprog=127 hiprog=127 master_volume=0 #include "Melodic/128-Gunshot.sfz" master_label=1:128 - Gunshot - none
+
+// Drums controls
+
+<global>
+global_label=Bank 129
+locc0=0 hicc0=120
+
+amp_veltrack=0
+amp_veltrack_oncc118=100
+amplitude_oncc7=100
+pan=-100
+pan_oncc10=200
+
+// Drums instruments
+
+<master> default_path=Drums loprog=0 hiprog=0 master_volume=0 #include "Drums/001-Standard Kit.sfz" master_label=1:1 - Standard Kit - none
+<master> default_path=Drums loprog=8 hiprog=8 master_volume=0 #include "Drums/009-Room Kit.sfz" master_label=1:9 - Room Kit - none
+<master> default_path=Drums loprog=16 hiprog=16 master_volume=0 #include "Drums/017-Power Kit.sfz" master_label=1:17 - Power Kit - none
+<master> default_path=Drums loprog=24 hiprog=24 master_volume=0 #include "Drums/025-Electronic Kit.sfz" master_label=1:25 - Electronic Kit - none
+<master> default_path=Drums loprog=25 hiprog=25 master_volume=0 #include "Drums/026-TR-808 Kit.sfz" master_label=1:26 - TR-808 Kit - none
+<master> default_path=Drums loprog=32 hiprog=32 master_volume=0 #include "Drums/033-Jazz Kit.sfz" master_label=1:33 - Jazz Kit - none
+<master> default_path=Drums loprog=40 hiprog=40 master_volume=0 #include "Drums/041-Brush Kit.sfz" master_label=1:41 - Brush Kit - none
+<master> default_path=Drums loprog=48 hiprog=48 master_volume=0 #include "Drums/049-Orchestra Kit.sfz" master_label=1:49 - Orchestra Kit - none
+<master> default_path=Drums loprog=56 hiprog=56 master_volume=0 #include "Drums/057-SFX Kit.sfz" master_label=1:57 - SFX Kit - none

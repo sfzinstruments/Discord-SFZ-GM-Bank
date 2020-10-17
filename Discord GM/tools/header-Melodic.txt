@@ -1,0 +1,42 @@
+// Melodic instrument controls
+
+<control>
+set_cc0=127 label_cc0=Drums/Melodic
+set_cc32=0 label_cc32=Bank Select
+
+set_hdcc73=0.5 label_cc73=Attack (73)
+set_hdcc72=0.5 label_cc72=Release (72)
+
+label_cc76=Vib.Freq set_hdcc76=0.5
+label_cc118=Veltrack set_hdcc118=1
+
+//Controller
+label_cc1=Mod.Wheel (1)
+label_cc129=Chn.Aft
+label_cc11=Expression (11) set_hdcc11=1
+label_cc7=Volume (7) set_hdcc7=0.79
+label_cc10=Pan (10) set_hdcc10=0.5
+
+<global>
+global_label=Bank 9
+locc0=121 hicc0=127
+locc32=0 hicc32=0
+
+ampeg_attack_oncc73=5
+ampeg_attack_curvecc73=1
+ampeg_release_oncc72=5
+ampeg_release_curvecc72=1
+
+pitchlfo_freq_oncc76=10
+fil_veltrack=2400
+amp_veltrack=0
+amp_veltrack_oncc118=100
+
+//Controller
+pitchlfo_depth_oncc1=50
+pitchlfo_depth_oncc129=50
+amplitude_oncc11=100
+amplitude_oncc7=100
+pan=-100
+pan_oncc10=200
+
