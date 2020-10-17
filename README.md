@@ -28,11 +28,11 @@ Here are list of the sources that considered to be used:
 - MSLP Samples
 
 ## Contributors
-- Kinwie
 - Jeff Learman
 - Sam Gossner (Versilian Studios)
 - DSmolken (Karoryfer)
 - David Viens (Plogue)
 - Greg Schlaepfer (Orange Tree Samples)
+- kinwie (drum samples assembler)
 
-[Wiki]: https://github.com/kinwie/Discord-SFZ-GM-Bank/wiki
+[Wiki]: https://github.com/sfzinstruments/Discord-SFZ-GM-Bank/wiki
