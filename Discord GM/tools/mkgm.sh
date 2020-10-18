@@ -61,23 +61,26 @@ SUFFIX=
 if [[ $1 = -t ]] ; then
     shift
     TEST=true
-    SUFFIX=-dbg
+    SUFFIX=-test
 fi
 
 PLANFILE=${1:-$TOOLS/GM-plan.txt}
 
 GLOBAL_NAME="Discord GM"
-OUTFILE="Discord GM Bank$SUFFIX.sfz
+OUTFILE="Discord GM Bank$SUFFIX.sfz"
 TMPFILE=tmp.sfz
 
 echo > $TMPFILE
-echo "<global> global_name=$GLOBAL_NAME" >> $TMPFILE
+# put global stuff here
+
 echo >> $TMPFILE
 
 let "SFZPROG = -1"
 LASTTYPE=none
 grep -v "^#" $PLANFILE | while read LINE ; do
+    LINE=`echo "$LINE" | tr -d '\r'`
     BANK=1
+
     TYPE=`      echo $LINE | cut -d\| -f1 | xargs echo -n`
     PROG=`      echo $LINE | cut -d\| -f2 | xargs echo -n`
     VOL=`       echo $LINE | cut -d\| -f3 | xargs echo -n`
@@ -97,35 +100,28 @@ grep -v "^#" $PLANFILE | while read LINE ; do
         echo
     fi
 
-    if $TEST ; then
-        let "SFZPROG = SFZPROG + 1"
-        let "TEST_PROG = SFZPROG + 1"
-    else
-        let "SFZPROG = $PROG - 1"
+    SFZFILE=$TYPE/$SFZ.sfz
+    SAMPFLDR=$TYPE/$SFZ
+
+    # DELETEME: quick results during initial debug
+    if $TEST && [[ $PROG -gt 26 ]] ; then
+        break
     fi
 
-    let "MENUPROG = $SFZPROG + 1"
-
-    if $TEST && [[ "$SFNAME" = "none" ]] ; then
+    if [[ "$SFNAME" = "none" ]] ; then
+        LASTTYPE=$TYPE
         continue
     fi
 
-    (
-    printf "%-8s  " "BANK=\"$BANK\""
-    printf "%-10s " "PROG=\"$MENUPROG\""
-    printf "%-10s " "VOL=\"$VOL\""
-    printf "%-32s " "SFZ=\"$SFZ\""
-    printf "%-32s " "GMNAME=\"$GMNAME\""
-    printf "%-32s " "SFNAME=\"$SFNAME\""
-    echo
-    ) 1>&2
-
-    if [[ $BANK != 1 ]] ; then
-        echo "Banks other than 1 not yet supported, ignoring."
+    if $TEST ; then
+        let "SFZPROG = SFZPROG + 1"
+        let "TEST_PROG = SFZPROG + 1"
+        let "MENUPROG = $SFZPROG + 1"
+        MENUPROG="$PROG($MENUPROG)"
+    else
+        let "SFZPROG = $PROG - 1"
+        let "MENUPROG = $PROG"
     fi
-
-    SFZFILE=$TYPE/$SFZ.sfz
-    SAMPFLDR=$TYPE/$SFZ
 
     if [[ ! -f "$SFZFILE" ]] ; then
         echo "Error: Sample file \"$SFZFILE\" does not exist" 1>&2
@@ -133,8 +129,22 @@ grep -v "^#" $PLANFILE | while read LINE ; do
     fi
 
     if [[ ! -d "$SAMPFLDR" ]] ; then
-        echo "Warning: Sample folder \"$SAMPFLDR\" does not exist" 1>&2
-        # exit 1
+        echo "Error: Sample folder \"$SAMPFLDR\" does not exist" 1>&2
+        exit 1
+    fi
+
+    (
+    printf "%-8s  " "TYPE=\"$TYPE\""
+    printf "%-12s " "PROG=\"$MENUPROG\""
+    printf "%-10s " "VOL=\"$VOL\""
+    printf "%-34s " "SFZ=\"$SFZ\""
+    printf "%-34s " "GMNAME=\"$GMNAME\""
+    printf "%-30s " "SFNAME=\"$SFNAME\""
+    echo
+    ) 1>&2
+
+    if [[ $BANK != 1 ]] ; then
+        echo "Banks other than 1 not yet supported, ignoring."
     fi
 
     let "SFZBANK = $BANK - 1"
@@ -148,7 +158,7 @@ grep -v "^#" $PLANFILE | while read LINE ; do
     else
         P=$PROG
     fi
-    echo "<master> default_path=$TYPE loprog=$SFZPROG hiprog=$SFZPROG master_volume=$VOL #include \"$SFZFILE\" master_label=$BANK:$P - $GMNAME - $SFNAME"
+    echo "<master> loprog=$SFZPROG hiprog=$SFZPROG master_volume=$VOL master_label=$BANK:$P - $GMNAME - $SFNAME #include \"$SFZFILE\""
 
     LASTTYPE=$TYPE
 

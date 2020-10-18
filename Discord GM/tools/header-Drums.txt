@@ -1,8 +1,10 @@
 // Drums controls
 
 <global>
-global_label=Bank 129
-locc0=0 hicc0=120
+//global_label=Bank 129
+global_label=Drums
+//locc0=0 hicc0=120
+locc0=120 hicc0=120
 
 amp_veltrack=0
 amp_veltrack_oncc118=100

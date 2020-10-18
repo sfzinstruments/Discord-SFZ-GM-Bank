@@ -1,0 +1,49 @@
+// Martin HD28, second try
+// Jeff Learman, for Kinwie's Discord SFZ GM: https://github.com/kinwie/Discord-SFZ-GM-Bank
+// License: Creative Commons CC0
+// This version is an A/B comparison of two velocity-sensitive filtering methods
+
+<global> sw_lokey=21 sw_hikey=23 sw_default=21
+
+<master> fil_veltrack=5000 cutoff=400
+
+<group> ampeg_sustain=0 ampeg_release=0.5
+<region> sw_last=21 sample=MartinGM2_040__E2_1.wav lokey=35 hikey=41 pitch_keycenter=40 ampeg_hold=4.423 ampeg_decay=22 pitcheg_hold=4.423 
+<region> sw_last=21 sample=MartinGM2_043__G2_1.wav lokey=42 hikey=44 pitch_keycenter=43 ampeg_hold=1.981 ampeg_decay=21 pitcheg_hold=1.981 
+<region> sw_last=21 sample=MartinGM2_046_Bb2_1.wav lokey=45 hikey=47 pitch_keycenter=46 ampeg_hold=4.304 ampeg_decay=20 pitcheg_hold=4.304 
+<group> ampeg_sustain=0 ampeg_release=0.4
+<region> sw_last=21 sample=MartinGM2_049_Db3_1.wav lokey=48 hikey=50 pitch_keycenter=49 ampeg_hold=2.552 ampeg_decay=19 pitcheg_hold=2.552 
+<region> sw_last=21 sample=MartinGM2_052__E3_1.wav lokey=51 hikey=53 pitch_keycenter=52 ampeg_hold=3.548 ampeg_decay=18 pitcheg_hold=3.548 
+<region> sw_last=21 sample=MartinGM2_055__G3_1.wav lokey=54 hikey=56 pitch_keycenter=55 ampeg_hold=2.251 ampeg_decay=17 pitcheg_hold=2.251 
+<region> sw_last=21 sample=MartinGM2_058_Bb3_1.wav lokey=57 hikey=59 pitch_keycenter=58 ampeg_hold=3.268 ampeg_decay=16 pitcheg_hold=3.268 
+<region> sw_last=21 sample=MartinGM2_061_Db4_1.wav lokey=60 hikey=62 pitch_keycenter=61 ampeg_hold=2.723 ampeg_decay=15 pitcheg_hold=2.723 
+<group> ampeg_sustain=0 ampeg_release=0.3
+<region> sw_last=21 sample=MartinGM2_064__E4_1.wav lokey=63 hikey=66 pitch_keycenter=64 ampeg_hold=1.901 ampeg_decay=14 pitcheg_hold=1.901 
+<region> sw_last=21 sample=MartinGM2_068_Ab4_1.wav lokey=67 hikey=69 pitch_keycenter=68 ampeg_hold=1.653 ampeg_decay=13 pitcheg_hold=1.653 
+<region> sw_last=21 sample=MartinGM2_071__B4_1.wav lokey=70 hikey=72 pitch_keycenter=71 ampeg_hold=1.199 ampeg_decay=12 pitcheg_hold=1.199 
+<region> sw_last=21 sample=MartinGM2_074__D5_1.wav lokey=73 hikey=75 pitch_keycenter=74 ampeg_hold=0.885 ampeg_decay=11 pitcheg_hold=0.885 
+<region> sw_last=21 sample=MartinGM2_077__F5_1.wav lokey=76 hikey=78 pitch_keycenter=77 ampeg_hold=1.484 ampeg_decay=10 pitcheg_hold=1.484 
+<region> sw_last=21 sample=MartinGM2_080_Ab5_1.wav lokey=79 hikey=81 pitch_keycenter=80 ampeg_hold=1.114 ampeg_decay=9 pitcheg_hold=1.114 
+<region> sw_last=21 sample=MartinGM2_083_B5_1.wav  lokey=82 hikey=88 pitch_keycenter=83 ampeg_hold=0.665 ampeg_decay=8 pitcheg_hold=0.665 
+
+
+<master> fil_type=lpf_1p cutoff=22050 cutoff_oncc131=-6000 cutoff_curvecc131=2
+
+<group> ampeg_sustain=0 ampeg_release=0.5
+<region> sw_last=23 sample=MartinGM2_040__E2_1.wav lokey=35 hikey=41 pitch_keycenter=40 ampeg_hold=4.423 ampeg_decay=22 pitcheg_hold=4.423 
+<region> sw_last=23 sample=MartinGM2_043__G2_1.wav lokey=42 hikey=44 pitch_keycenter=43 ampeg_hold=1.981 ampeg_decay=21 pitcheg_hold=1.981 
+<region> sw_last=23 sample=MartinGM2_046_Bb2_1.wav lokey=45 hikey=47 pitch_keycenter=46 ampeg_hold=4.304 ampeg_decay=20 pitcheg_hold=4.304 
+<group> ampeg_sustain=0 ampeg_release=0.4
+<region> sw_last=23 sample=MartinGM2_049_Db3_1.wav lokey=48 hikey=50 pitch_keycenter=49 ampeg_hold=2.552 ampeg_decay=19 pitcheg_hold=2.552 
+<region> sw_last=23 sample=MartinGM2_052__E3_1.wav lokey=51 hikey=53 pitch_keycenter=52 ampeg_hold=3.548 ampeg_decay=18 pitcheg_hold=3.548 
+<region> sw_last=23 sample=MartinGM2_055__G3_1.wav lokey=54 hikey=56 pitch_keycenter=55 ampeg_hold=2.251 ampeg_decay=17 pitcheg_hold=2.251 
+<region> sw_last=23 sample=MartinGM2_058_Bb3_1.wav lokey=57 hikey=59 pitch_keycenter=58 ampeg_hold=3.268 ampeg_decay=16 pitcheg_hold=3.268 
+<region> sw_last=23 sample=MartinGM2_061_Db4_1.wav lokey=60 hikey=62 pitch_keycenter=61 ampeg_hold=2.723 ampeg_decay=15 pitcheg_hold=2.723 
+<group> ampeg_sustain=0 ampeg_release=0.3
+<region> sw_last=23 sample=MartinGM2_064__E4_1.wav lokey=63 hikey=66 pitch_keycenter=64 ampeg_hold=1.901 ampeg_decay=14 pitcheg_hold=1.901 
+<region> sw_last=23 sample=MartinGM2_068_Ab4_1.wav lokey=67 hikey=69 pitch_keycenter=68 ampeg_hold=1.653 ampeg_decay=13 pitcheg_hold=1.653 
+<region> sw_last=23 sample=MartinGM2_071__B4_1.wav lokey=70 hikey=72 pitch_keycenter=71 ampeg_hold=1.199 ampeg_decay=12 pitcheg_hold=1.199 
+<region> sw_last=23 sample=MartinGM2_074__D5_1.wav lokey=73 hikey=75 pitch_keycenter=74 ampeg_hold=0.885 ampeg_decay=11 pitcheg_hold=0.885 
+<region> sw_last=23 sample=MartinGM2_077__F5_1.wav lokey=76 hikey=78 pitch_keycenter=77 ampeg_hold=1.484 ampeg_decay=10 pitcheg_hold=1.484 
+<region> sw_last=23 sample=MartinGM2_080_Ab5_1.wav lokey=79 hikey=81 pitch_keycenter=80 ampeg_hold=1.114 ampeg_decay=9 pitcheg_hold=1.114 
+<region> sw_last=23 sample=MartinGM2_083_B5_1.wav  lokey=82 hikey=88 pitch_keycenter=83 ampeg_hold=0.665 ampeg_decay=8 pitcheg_hold=0.665 
