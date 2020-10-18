@@ -1,0 +1,92 @@
+<group>
+ampeg_release=0.6
+
+<region> sample=A_029__F1_3.wav
+lokey=21
+hikey=32
+pitch_keycenter=29
+end=233193
+
+<region> sample=A_035__B1_3.wav
+lokey=33
+hikey=37
+pitch_keycenter=35
+
+<region> sample=A_040__E2_3.wav
+lokey=38
+hikey=42
+pitch_keycenter=40
+
+<region> sample=A_045__A2_3.wav
+lokey=43
+hikey=47
+pitch_keycenter=45
+
+
+<group>
+ampeg_release=0.4
+
+<region> sample=A_050__D3_3.wav
+lokey=48
+hikey=52
+pitch_keycenter=50
+
+<region> sample=A_055__G3_3.wav
+lokey=53
+hikey=57
+pitch_keycenter=55
+
+<region> sample=A_059__B3_3.wav
+lokey=58
+hikey=60
+pitch_keycenter=59
+
+<region> sample=A_062__D4_3.wav
+lokey=61
+hikey=63
+pitch_keycenter=62
+
+
+<group>
+ampeg_release=0.3
+
+<region> sample=A_065__F4_3.wav
+lokey=64
+hikey=68
+pitch_keycenter=65
+
+<region> sample=A_071__B4_4.wav
+lokey=69
+hikey=73
+pitch_keycenter=71
+
+<region> sample=A_076__E5_4.wav
+lokey=74
+hikey=78
+pitch_keycenter=76
+
+<region> sample=A_081__A5_4.wav
+lokey=79
+hikey=83
+pitch_keycenter=81
+
+
+<group>
+ampeg_release=0.2
+
+<region> sample=A_086__D6_4.wav
+lokey=84
+hikey=88
+pitch_keycenter=86
+
+<region> sample=A_091__G6_4.wav
+lokey=89
+hikey=93
+pitch_keycenter=91
+
+<region> sample=A_096__C7_4.wav
+lokey=94
+hikey=108
+pitch_keycenter=96
+
+

@@ -12,9 +12,6 @@
 Melodic |   1 |  0   | 001-Acoustic Grand Piano     | Acoustic Grand Piano     | Salamander Grand
 Melodic |   2 |  7.5 | 002-Bright Acoustic Piano    | Bright Acoustic Piano    | VCSL Yamaha Upright
 Melodic |   3 |  4.5 | 003-Electric Grand Piano     | Electric Grand Piano     | Greg Sullivan Yamaha CP80
-Melodic |   1 |  0   | 001-Acoustic Grand Piano     | Acoustic Grand Piano     | none
-Melodic |   2 |  0   | 002-Bright Acoustic Piano    | Bright Acoustic Piano    | none
-Melodic |   3 |  0   | 003-Electric Grand Piano     | Electric Grand Piano     | none
 Melodic |   4 |  0   | 004-Honky-tonk Piano         | Honky-tonk Piano         | none
 Melodic |   5 |  0   | 005-Electric Piano 1         | Electric Piano 1         | jRhodes
 Melodic |   6 |  0   | 006-Electric Piano 2         | Electric Piano 2         | none
