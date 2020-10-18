@@ -1,5 +1,5 @@
-<control>
-default_path=001-Standard Kit/
+// <control>
+// default_path=001-Standard Kit/
 
 //////////Drums
 
@@ -12,37 +12,37 @@ key=36
 lokey=35
 
 <region>
-sample=Kick 1.aif
+sample=001-Standard Kit/Kick 1.aif
 lovel=1
 hivel=18
 
 <region>
-sample=Kick 2.aif
+sample=001-Standard Kit/Kick 2.aif
 lovel=19
 hivel=37
 
 <region>
-sample=Kick 3.aif
+sample=001-Standard Kit/Kick 3.aif
 lovel=38
 hivel=56
 
 <region>
-sample=Kick 4.aif
+sample=001-Standard Kit/Kick 4.aif
 lovel=57
 hivel=75
 
 <region>
-sample=Kick 5.aif
+sample=001-Standard Kit/Kick 5.aif
 lovel=76
 hivel=93
 
 <region>
-sample=Kick 6.aif
+sample=001-Standard Kit/Kick 6.aif
 lovel=94
 hivel=112
 
 <region>
-sample=Kick 7.aif
+sample=001-Standard Kit/Kick 7.aif
 lovel=113
 hivel=127
 volume=2.9
@@ -54,52 +54,52 @@ amp_veltrack=34
 key=38
 
 <region>
-sample=SML Snare 1-L.aif
+sample=001-Standard Kit/SML Snare 1-L.aif
 lovel=1
 hivel=30
 
 <region>
-sample=SML Snare 2-L.aif
+sample=001-Standard Kit/SML Snare 2-L.aif
 lovel=31
 hivel=41
 
 <region>
-sample=SML Snare 3-L.aif
+sample=001-Standard Kit/SML Snare 3-L.aif
 lovel=42
 hivel=52
 
 <region>
-sample=SML Snare 4-L.aif
+sample=001-Standard Kit/SML Snare 4-L.aif
 lovel=53
 hivel=63
 
 <region>
-sample=SML Snare 5-L.aif
+sample=001-Standard Kit/SML Snare 5-L.aif
 lovel=64
 hivel=74
 
 <region>
-sample=SML Snare 6-L.aif
+sample=001-Standard Kit/SML Snare 6-L.aif
 lovel=75
 hivel=85
 
 <region>
-sample=SML Snare 7-L.aif
+sample=001-Standard Kit/SML Snare 7-L.aif
 lovel=86
 hivel=96
 
 <region>
-sample=SML Snare 8-L.aif
+sample=001-Standard Kit/SML Snare 8-L.aif
 lovel=97
 hivel=107
 
 <region>
-sample=SML Snare RS 1-L.aif
+sample=001-Standard Kit/SML Snare RS 1-L.aif
 lovel=108
 hivel=118
 
 <region>
-sample=SML Snare RS 2-L.aif
+sample=001-Standard Kit/SML Snare RS 2-L.aif
 lovel=119
 hivel=127
 
@@ -110,52 +110,52 @@ amp_veltrack=34
 key=40
 
 <region>
-sample=SML Snare 1-R.aif
+sample=001-Standard Kit/SML Snare 1-R.aif
 lovel=1
 hivel=30
 
 <region>
-sample=SML Snare 2-R.aif
+sample=001-Standard Kit/SML Snare 2-R.aif
 lovel=31
 hivel=41
 
 <region>
-sample=SML Snare 3-R.aif
+sample=001-Standard Kit/SML Snare 3-R.aif
 lovel=42
 hivel=52
 
 <region>
-sample=SML Snare 4-R.aif
+sample=001-Standard Kit/SML Snare 4-R.aif
 lovel=53
 hivel=63
 
 <region>
-sample=SML Snare 5-R.aif
+sample=001-Standard Kit/SML Snare 5-R.aif
 lovel=64
 hivel=74
 
 <region>
-sample=SML Snare 6-R.aif
+sample=001-Standard Kit/SML Snare 6-R.aif
 lovel=75
 hivel=85
 
 <region>
-sample=SML Snare 7-R.aif
+sample=001-Standard Kit/SML Snare 7-R.aif
 lovel=86
 hivel=96
 
 <region>
-sample=SML Snare 8-R.aif
+sample=001-Standard Kit/SML Snare 8-R.aif
 lovel=97
 hivel=107
 
 <region>
-sample=SML Snare RS 1-R.aif
+sample=001-Standard Kit/SML Snare RS 1-R.aif
 lovel=108
 hivel=118
 
 <region>
-sample=SML Snare RS 2-R.aif
+sample=001-Standard Kit/SML Snare RS 2-R.aif
 lovel=119
 hivel=127
 
@@ -167,7 +167,7 @@ ampeg_release=15.000000
 <region>
 seq_length=2
 seq_position=1
-sample=Snare4_Xstick_v2_rr1_Mid.wav
+sample=001-Standard Kit/Snare4_Xstick_v2_rr1_Mid.wav
 pitch_keycenter=37
 lokey=37
 hikey=37
@@ -176,7 +176,7 @@ volume=15.105406
 <region>
 seq_length=2
 seq_position=2
-sample=Snare4_Xstick_v2_rr2_Mid.wav
+sample=001-Standard Kit/Snare4_Xstick_v2_rr2_Mid.wav
 pitch_keycenter=37
 lokey=37
 hikey=37
@@ -191,22 +191,22 @@ key=50
 transpose=7
 
 <region>
-sample=M Tom 1 L.aif
+sample=001-Standard Kit/M Tom 1 L.aif
 lovel=1
 hivel=31
 
 <region>
-sample=M Tom 2 L.aif
+sample=001-Standard Kit/M Tom 2 L.aif
 lovel=32
 hivel=63
 
 <region>
-sample=M Tom 3 L.aif
+sample=001-Standard Kit/M Tom 3 L.aif
 lovel=64
 hivel=95
 
 <region>
-sample=M Tom 4 L.aif
+sample=001-Standard Kit/M Tom 4 L.aif
 lovel=96
 hivel=127
 
@@ -218,22 +218,22 @@ key=48
 transpose=3
 
 <region>
-sample=M Tom 1 R.aif
+sample=001-Standard Kit/M Tom 1 R.aif
 lovel=1
 hivel=31
 
 <region>
-sample=M Tom 2 R.aif
+sample=001-Standard Kit/M Tom 2 R.aif
 lovel=32
 hivel=63
 
 <region>
-sample=M Tom 3 R.aif
+sample=001-Standard Kit/M Tom 3 R.aif
 lovel=64
 hivel=95
 
 <region>
-sample=M Tom 4 R.aif
+sample=001-Standard Kit/M Tom 4 R.aif
 lovel=96
 hivel=127
 
@@ -245,22 +245,22 @@ key=45
 transpose=-3
 
 <region>
-sample=M Tom 1 L.aif
+sample=001-Standard Kit/M Tom 1 L.aif
 lovel=1
 hivel=31
 
 <region>
-sample=M Tom 2 L.aif
+sample=001-Standard Kit/M Tom 2 L.aif
 lovel=32
 hivel=63
 
 <region>
-sample=M Tom 3 L.aif
+sample=001-Standard Kit/M Tom 3 L.aif
 lovel=64
 hivel=95
 
 <region>
-sample=M Tom 4 L.aif
+sample=001-Standard Kit/M Tom 4 L.aif
 lovel=96
 hivel=127
 
@@ -271,22 +271,22 @@ amp_veltrack=34
 key=47
 
 <region>
-sample=M Tom 1 R.aif
+sample=001-Standard Kit/M Tom 1 R.aif
 lovel=1
 hivel=31
 
 <region>
-sample=M Tom 2 R.aif
+sample=001-Standard Kit/M Tom 2 R.aif
 lovel=32
 hivel=63
 
 <region>
-sample=M Tom 3 R.aif
+sample=001-Standard Kit/M Tom 3 R.aif
 lovel=64
 hivel=95
 
 <region>
-sample=M Tom 4 R.aif
+sample=001-Standard Kit/M Tom 4 R.aif
 lovel=96
 hivel=127
 
@@ -297,22 +297,22 @@ amp_veltrack=34
 key=41
 
 <region>
-sample=F Tom 1 L.aif
+sample=001-Standard Kit/F Tom 1 L.aif
 lovel=1
 hivel=31
 
 <region>
-sample=F Tom 2 L.aif
+sample=001-Standard Kit/F Tom 2 L.aif
 lovel=32
 hivel=62
 
 <region>
-sample=F Tom 3 L.aif
+sample=001-Standard Kit/F Tom 3 L.aif
 lovel=63
 hivel=93
 
 <region>
-sample=F Tom 4 L.aif
+sample=001-Standard Kit/F Tom 4 L.aif
 lovel=94
 hivel=127
 
@@ -324,22 +324,22 @@ key=43
 transpose=3
 
 <region>
-sample=F Tom 1 R.aif
+sample=001-Standard Kit/F Tom 1 R.aif
 lovel=1
 hivel=31
 
 <region>
-sample=F Tom 2 R.aif
+sample=001-Standard Kit/F Tom 2 R.aif
 lovel=32
 hivel=62
 
 <region>
-sample=F Tom 3 R.aif
+sample=001-Standard Kit/F Tom 3 R.aif
 lovel=63
 hivel=93
 
 <region>
-sample=F Tom 4 R.aif
+sample=001-Standard Kit/F Tom 4 R.aif
 lovel=94
 hivel=127
 
@@ -352,42 +352,42 @@ group=1
 off_by=1
 
 <region>
-sample=CL Tip Hat 1.aif
+sample=001-Standard Kit/CL Tip Hat 1.aif
 lovel=1
 hivel=15
 
 <region>
-sample=CL Tip Hat 2.aif
+sample=001-Standard Kit/CL Tip Hat 2.aif
 lovel=16
 hivel=30
 
 <region>
-sample=CL Tip Hat 3.aif
+sample=001-Standard Kit/CL Tip Hat 3.aif
 lovel=31
 hivel=45
 
 <region>
-sample=CL Tip Hat 4.aif
+sample=001-Standard Kit/CL Tip Hat 4.aif
 lovel=46
 hivel=60
 
 <region>
-sample=CL Tip Hat 5.aif
+sample=001-Standard Kit/CL Tip Hat 5.aif
 lovel=61
 hivel=75
 
 <region>
-sample=CL Tip Hat 6.aif
+sample=001-Standard Kit/CL Tip Hat 6.aif
 lovel=76
 hivel=90
 
 <region>
-sample=CL Tip Hat 7.aif
+sample=001-Standard Kit/CL Tip Hat 7.aif
 lovel=91
 hivel=105
 
 <region>
-sample=CL Tip Hat 8.aif
+sample=001-Standard Kit/CL Tip Hat 8.aif
 lovel=106
 hivel=127
 
@@ -400,18 +400,18 @@ group=1
 off_by=1
 
 <region>
-sample=STMP Hat 1.aif
+sample=001-Standard Kit/STMP Hat 1.aif
 lovel=1
 hivel=42
 
 <region>
-sample=STMP Hat 2.aif
+sample=001-Standard Kit/STMP Hat 2.aif
 lovel=43
 hivel=84
 volume=2.4
 
 <region>
-sample=STMP Hat 3.aif
+sample=001-Standard Kit/STMP Hat 3.aif
 lovel=85
 hivel=127
 volume=5.1
@@ -425,13 +425,13 @@ group=1
 off_by=1
 
 <region>
-sample=OP SH Hat 1.aif
+sample=001-Standard Kit/OP SH Hat 1.aif
 lovel=1
 hivel=63
 volume=-4.8
 
 <region>
-sample=OP SH Hat 2.aif
+sample=001-Standard Kit/OP SH Hat 2.aif
 lovel=64
 hivel=127
 
@@ -442,22 +442,22 @@ amp_veltrack=34
 key=51
 
 <region>
-sample=PL MID Tip ride 1.aif
+sample=001-Standard Kit/PL MID Tip ride 1.aif
 lovel=1
 hivel=31
 
 <region>
-sample=PL MID Tip ride 2.aif
+sample=001-Standard Kit/PL MID Tip ride 2.aif
 lovel=32
 hivel=64
 
 <region>
-sample=PL MID Tip ride 3.aif
+sample=001-Standard Kit/PL MID Tip ride 3.aif
 lovel=65
 hivel=96
 
 <region>
-sample=PL MID Tip ride 4.aif
+sample=001-Standard Kit/PL MID Tip ride 4.aif
 lovel=97
 hivel=127
 volume=2.9
@@ -469,23 +469,23 @@ amp_veltrack=34
 key=53
 
 <region>
-sample=PL BELL ride 1.aif
+sample=001-Standard Kit/PL BELL ride 1.aif
 lovel=1
 hivel=31
 
 <region>
-sample=PL BELL ride 2.aif
+sample=001-Standard Kit/PL BELL ride 2.aif
 lovel=32
 hivel=64
 
 <region>
-sample=PL BELL ride 3.aif
+sample=001-Standard Kit/PL BELL ride 3.aif
 lovel=65
 hivel=96
 volume=2.4
 
 <region>
-sample=PL BELL ride 4.aif
+sample=001-Standard Kit/PL BELL ride 4.aif
 lovel=97
 hivel=127
 volume=5.2
@@ -497,17 +497,17 @@ amp_veltrack=34
 key=59
 
 <region>
-sample=PL EDG Tip ride 1.aif
+sample=001-Standard Kit/PL EDG Tip ride 1.aif
 lovel=1
 hivel=42
 
 <region>
-sample=PL EDG Tip ride 2.aif
+sample=001-Standard Kit/PL EDG Tip ride 2.aif
 lovel=43
 hivel=87
 
 <region>
-sample=PL EDG Tip ride 3.aif
+sample=001-Standard Kit/PL EDG Tip ride 3.aif
 lovel=88
 hivel=127
 volume=1.8
@@ -519,23 +519,23 @@ amp_veltrack=34
 key=52
 
 <region>
-sample=PL crash 1.aif
+sample=001-Standard Kit/PL crash 1.aif
 lovel=1
 hivel=31
 
 <region>
-sample=PL crash 2.aif
+sample=001-Standard Kit/PL crash 2.aif
 lovel=32
 hivel=63
 
 <region>
-sample=PL crash 3.aif
+sample=001-Standard Kit/PL crash 3.aif
 lovel=64
 hivel=95
 volume=0.6
 
 <region>
-sample=PL crash 4.aif
+sample=001-Standard Kit/PL crash 4.aif
 lovel=96
 hivel=127
 volume=3.0
@@ -548,22 +548,22 @@ amp_veltrack=34
 key=49
 
 <region>
-sample=A CST crash SH 1.aif
+sample=001-Standard Kit/A CST crash SH 1.aif
 lovel=1
 hivel=31
 
 <region>
-sample=A CST crash SH 2.aif
+sample=001-Standard Kit/A CST crash SH 2.aif
 lovel=32
 hivel=62
 
 <region>
-sample=A CST crash SH 3.aif
+sample=001-Standard Kit/A CST crash SH 3.aif
 lovel=63
 hivel=93
 
 <region>
-sample=A CST crash SH 4.aif
+sample=001-Standard Kit/A CST crash SH 4.aif
 lovel=94
 hivel=127
 
@@ -574,18 +574,18 @@ amp_veltrack=34
 key=57
 
 <region>
-sample=SAB crash SH 1.aif
+sample=001-Standard Kit/SAB crash SH 1.aif
 lovel=1
 hivel=42
 
 <region>
-sample=SAB crash SH 2.aif
+sample=001-Standard Kit/SAB crash SH 2.aif
 lovel=43
 hivel=84
 volume=-4.1
 
 <region>
-sample=SAB crash SH 3.aif
+sample=001-Standard Kit/SAB crash SH 3.aif
 lovel=85
 hivel=127
 volume=-1.9
@@ -597,12 +597,12 @@ amp_veltrack=34
 key=55
 
 <region>
-sample=ZLC crash SH 1.aif
+sample=001-Standard Kit/ZLC crash SH 1.aif
 lovel=1
 hivel=63
 
 <region>
-sample=ZLC crash SH 2.aif
+sample=001-Standard Kit/ZLC crash SH 2.aif
 lovel=64
 hivel=127
 
@@ -616,12 +616,12 @@ loop_mode=one_shot
 key=27
 
 <region>
-sample=Roland-SC-88-High-Q.wav
+sample=001-Standard Kit/Roland-SC-88-High-Q.wav
 
 //Slap
 <group>
 loop_mode=one_shot
-sample=326179__lizellekleynhans__slapping.wav
+sample=001-Standard Kit/326179__lizellekleynhans__slapping.wav
 key=28
 
 <region>
@@ -639,7 +639,7 @@ end=239825
 //Scratch
 <group>
 loop_mode=one_shot
-sample=418041__ethanchase7744__dj-lower-pitched-scratch.wav
+sample=001-Standard Kit/418041__ethanchase7744__dj-lower-pitched-scratch.wav
 
 <region>
 key=29
@@ -657,7 +657,7 @@ ampeg_release=15.000000
 <region>
 seq_length=2
 seq_position=1
-sample=Snare2_stick_v1_rr1_Mid.wav
+sample=001-Standard Kit/Snare2_stick_v1_rr1_Mid.wav
 pitch_keycenter=31
 lokey=31
 hikey=31
@@ -667,7 +667,7 @@ volume=9.268060
 <region>
 seq_length=2
 seq_position=2
-sample=Snare2_stick_v1_rr2_Mid.wav
+sample=001-Standard Kit/Snare2_stick_v1_rr2_Mid.wav
 pitch_keycenter=31
 lokey=31
 hikey=31
@@ -679,7 +679,7 @@ volume=10.799342
 loop_mode=one_shot
 
 <region>
-sample=Roland-SC-88-Square-Click.wav
+sample=001-Standard Kit/Roland-SC-88-Square-Click.wav
 key=32
 
 //Metronome
@@ -687,11 +687,11 @@ key=32
 loop_mode=one_shot
 
 <region>
-sample=191958__seidhepriest__metronome-tick-bellish.wav
+sample=001-Standard Kit/191958__seidhepriest__metronome-tick-bellish.wav
 key=33
 
 <region>
-sample=191959__seidhepriest__metronome-bell-96.wav
+sample=001-Standard Kit/191959__seidhepriest__metronome-bell-96.wav
 key=34
 
 //Claps
@@ -702,7 +702,7 @@ ampeg_release=2.000000
 <region>
 seq_length=6
 seq_position=1
-sample=Clap_rr5.wav
+sample=001-Standard Kit/Clap_rr5.wav
 pitch_keycenter=39
 lokey=39
 hikey=39
@@ -711,7 +711,7 @@ volume=0.841848
 <region>
 seq_length=6
 seq_position=2
-sample=Clap_rr4.wav
+sample=001-Standard Kit/Clap_rr4.wav
 pitch_keycenter=39
 lokey=39
 hikey=39
@@ -720,7 +720,7 @@ volume=3.052644
 <region>
 seq_length=6
 seq_position=3
-sample=Clap_rr6.wav
+sample=001-Standard Kit/Clap_rr6.wav
 pitch_keycenter=39
 lokey=39
 hikey=39
@@ -729,7 +729,7 @@ volume=-5.024550
 <region>
 seq_length=6
 seq_position=4
-sample=Clap_rr3.wav
+sample=001-Standard Kit/Clap_rr3.wav
 pitch_keycenter=39
 lokey=39
 hikey=39
@@ -738,7 +738,7 @@ volume=0.856101
 <region>
 seq_length=6
 seq_position=5
-sample=Clap_rr2.wav
+sample=001-Standard Kit/Clap_rr2.wav
 pitch_keycenter=39
 lokey=39
 hikey=39
@@ -747,7 +747,7 @@ volume=1.178450
 <region>
 seq_length=6
 seq_position=6
-sample=Clap_rr1.wav
+sample=001-Standard Kit/Clap_rr1.wav
 pitch_keycenter=39
 lokey=39
 hikey=39
@@ -761,7 +761,7 @@ ampeg_release=30.000000
 <region>
 lovel=0
 hivel=83
-sample=Tamb1_Hit_v1_rr1_Mid.wav
+sample=001-Standard Kit/Tamb1_Hit_v1_rr1_Mid.wav
 pitch_keycenter=54
 lokey=54
 hikey=54
@@ -771,7 +771,7 @@ volume=25.985359
 <region>
 lovel=84
 hivel=127
-sample=Tamb1_Hit_v2_rr1_Mid.wav
+sample=001-Standard Kit/Tamb1_Hit_v2_rr1_Mid.wav
 pitch_keycenter=54
 lokey=54
 hikey=54
@@ -786,7 +786,7 @@ ampeg_release=15.000000
 <region>
 lovel=0
 hivel=65
-sample=Cowbell1_Hit_v2_rr1_Mid.wav
+sample=001-Standard Kit/Cowbell1_Hit_v2_rr1_Mid.wav
 pitch_keycenter=56
 lokey=56
 hikey=56
@@ -796,7 +796,7 @@ volume=15.528839
 <region>
 lovel=66
 hivel=99
-sample=Cowbell1_Hit_v3_rr1_Mid.wav
+sample=001-Standard Kit/Cowbell1_Hit_v3_rr1_Mid.wav
 pitch_keycenter=56
 lokey=56
 hikey=56
@@ -806,7 +806,7 @@ volume=8.904143
 <region>
 lovel=100
 hivel=127
-sample=Cowbell1_Hit_v4_rr1_Mid.wav
+sample=001-Standard Kit/Cowbell1_Hit_v4_rr1_Mid.wav
 pitch_keycenter=56
 lokey=56
 hikey=56
@@ -821,7 +821,7 @@ ampeg_release=30.000000
 <region>
 seq_length=1
 seq_position=1
-sample=vibraslap_rr1.wav
+sample=001-Standard Kit/vibraslap_rr1.wav
 pitch_keycenter=58
 lokey=58
 hikey=58
@@ -838,7 +838,7 @@ seq_length=2
 seq_position=1
 lovel=0
 hivel=65
-sample=BongoH_Hit1_v1_rr1_Mid.wav
+sample=001-Standard Kit/BongoH_Hit1_v1_rr1_Mid.wav
 pitch_keycenter=60
 lokey=60
 hikey=60
@@ -850,7 +850,7 @@ seq_length=2
 seq_position=2
 lovel=0
 hivel=65
-sample=BongoH_Hit1_v1_rr2_Mid.wav
+sample=001-Standard Kit/BongoH_Hit1_v1_rr2_Mid.wav
 pitch_keycenter=60
 lokey=60
 hikey=60
@@ -862,7 +862,7 @@ seq_length=2
 seq_position=1
 lovel=66
 hivel=99
-sample=BongoH_Hit1_v2_rr1_Mid.wav
+sample=001-Standard Kit/BongoH_Hit1_v2_rr1_Mid.wav
 pitch_keycenter=60
 lokey=60
 hikey=60
@@ -874,7 +874,7 @@ seq_length=2
 seq_position=2
 lovel=66
 hivel=99
-sample=BongoH_Hit1_v2_rr2_Mid.wav
+sample=001-Standard Kit/BongoH_Hit1_v2_rr2_Mid.wav
 pitch_keycenter=60
 lokey=60
 hikey=60
@@ -886,7 +886,7 @@ seq_length=2
 seq_position=1
 lovel=100
 hivel=127
-sample=BongoH_Hit1_v3_rr1_Mid.wav
+sample=001-Standard Kit/BongoH_Hit1_v3_rr1_Mid.wav
 pitch_keycenter=60
 lokey=60
 hikey=60
@@ -898,7 +898,7 @@ seq_length=2
 seq_position=2
 lovel=100
 hivel=127
-sample=BongoH_Hit1_v3_rr2_Mid.wav
+sample=001-Standard Kit/BongoH_Hit1_v3_rr2_Mid.wav
 pitch_keycenter=60
 lokey=60
 hikey=60
@@ -910,7 +910,7 @@ seq_length=2
 seq_position=1
 lovel=0
 hivel=65
-sample=BongoL_Hit1_v1_rr1_Mid.wav
+sample=001-Standard Kit/BongoL_Hit1_v1_rr1_Mid.wav
 pitch_keycenter=61
 lokey=61
 hikey=61
@@ -922,7 +922,7 @@ seq_length=2
 seq_position=2
 lovel=0
 hivel=65
-sample=BongoL_Hit1_v1_rr2_Mid.wav
+sample=001-Standard Kit/BongoL_Hit1_v1_rr2_Mid.wav
 pitch_keycenter=61
 lokey=61
 hikey=61
@@ -934,7 +934,7 @@ seq_length=2
 seq_position=1
 lovel=66
 hivel=99
-sample=BongoL_Hit1_v2_rr1_Mid.wav
+sample=001-Standard Kit/BongoL_Hit1_v2_rr1_Mid.wav
 pitch_keycenter=61
 lokey=61
 hikey=61
@@ -946,7 +946,7 @@ seq_length=2
 seq_position=2
 lovel=66
 hivel=99
-sample=BongoL_Hit1_v2_rr2_Mid.wav
+sample=001-Standard Kit/BongoL_Hit1_v2_rr2_Mid.wav
 pitch_keycenter=61
 lokey=61
 hikey=61
@@ -958,7 +958,7 @@ seq_length=2
 seq_position=1
 lovel=100
 hivel=127
-sample=BongoL_Hit1_v3_rr1_Mid.wav
+sample=001-Standard Kit/BongoL_Hit1_v3_rr1_Mid.wav
 pitch_keycenter=61
 lokey=61
 hikey=61
@@ -970,7 +970,7 @@ seq_length=2
 seq_position=2
 lovel=100
 hivel=127
-sample=BongoL_Hit1_v3_rr2_Mid.wav
+sample=001-Standard Kit/BongoL_Hit1_v3_rr2_Mid.wav
 pitch_keycenter=61
 lokey=61
 hikey=61
@@ -987,7 +987,7 @@ seq_length=2
 seq_position=1
 lovel=0
 hivel=65
-sample=Conga_HitN_v1_rr1_Sum.wav
+sample=001-Standard Kit/Conga_HitN_v1_rr1_Sum.wav
 pitch_keycenter=64
 lokey=64
 hikey=64
@@ -998,7 +998,7 @@ seq_length=2
 seq_position=2
 lovel=0
 hivel=65
-sample=Conga_HitN_v1_rr2_Sum.wav
+sample=001-Standard Kit/Conga_HitN_v1_rr2_Sum.wav
 pitch_keycenter=64
 lokey=64
 hikey=64
@@ -1009,7 +1009,7 @@ seq_length=2
 seq_position=1
 lovel=66
 hivel=99
-sample=Conga_HitN_v2_rr1_Sum.wav
+sample=001-Standard Kit/Conga_HitN_v2_rr1_Sum.wav
 pitch_keycenter=64
 lokey=64
 hikey=64
@@ -1020,7 +1020,7 @@ seq_length=2
 seq_position=2
 lovel=66
 hivel=99
-sample=Conga_HitN_v2_rr2_Sum.wav
+sample=001-Standard Kit/Conga_HitN_v2_rr2_Sum.wav
 pitch_keycenter=64
 lokey=64
 hikey=64
@@ -1031,7 +1031,7 @@ seq_length=2
 seq_position=1
 lovel=100
 hivel=127
-sample=Conga_HitN_v3_rr1_Sum.wav
+sample=001-Standard Kit/Conga_HitN_v3_rr1_Sum.wav
 pitch_keycenter=64
 lokey=64
 hikey=64
@@ -1042,7 +1042,7 @@ seq_length=2
 seq_position=2
 lovel=100
 hivel=127
-sample=Conga_HitN_v3_rr2_Sum.wav
+sample=001-Standard Kit/Conga_HitN_v3_rr2_Sum.wav
 pitch_keycenter=64
 lokey=64
 hikey=64
@@ -1053,7 +1053,7 @@ seq_length=2
 seq_position=1
 lovel=0
 hivel=83
-sample=Quinto_HitFM1_v1_rr1_Sum.wav
+sample=001-Standard Kit/Quinto_HitFM1_v1_rr1_Sum.wav
 pitch_keycenter=62
 lokey=62
 hikey=62
@@ -1064,7 +1064,7 @@ seq_length=2
 seq_position=2
 lovel=0
 hivel=83
-sample=Quinto_HitFM1_v1_rr2_Sum.wav
+sample=001-Standard Kit/Quinto_HitFM1_v1_rr2_Sum.wav
 pitch_keycenter=62
 lokey=62
 hikey=62
@@ -1075,7 +1075,7 @@ seq_length=2
 seq_position=1
 lovel=84
 hivel=127
-sample=Quinto_HitFM1_v2_rr1_Sum.wav
+sample=001-Standard Kit/Quinto_HitFM1_v2_rr1_Sum.wav
 pitch_keycenter=62
 lokey=62
 hikey=62
@@ -1086,7 +1086,7 @@ seq_length=2
 seq_position=2
 lovel=84
 hivel=127
-sample=Quinto_HitFM1_v2_rr2_Sum.wav
+sample=001-Standard Kit/Quinto_HitFM1_v2_rr2_Sum.wav
 pitch_keycenter=62
 lokey=62
 hikey=62
@@ -1097,7 +1097,7 @@ seq_length=2
 seq_position=1
 lovel=0
 hivel=65
-sample=Quinto_HitN_v1_rr1_Sum.wav
+sample=001-Standard Kit/Quinto_HitN_v1_rr1_Sum.wav
 pitch_keycenter=63
 lokey=63
 hikey=63
@@ -1108,7 +1108,7 @@ seq_length=2
 seq_position=2
 lovel=0
 hivel=65
-sample=Quinto_HitN_v1_rr2_Sum.wav
+sample=001-Standard Kit/Quinto_HitN_v1_rr2_Sum.wav
 pitch_keycenter=63
 lokey=63
 hikey=63
@@ -1119,7 +1119,7 @@ seq_length=2
 seq_position=1
 lovel=66
 hivel=99
-sample=Quinto_HitN_v2_rr1_Sum.wav
+sample=001-Standard Kit/Quinto_HitN_v2_rr1_Sum.wav
 pitch_keycenter=63
 lokey=63
 hikey=63
@@ -1130,7 +1130,7 @@ seq_length=2
 seq_position=2
 lovel=66
 hivel=99
-sample=Quinto_HitN_v2_rr2_Sum.wav
+sample=001-Standard Kit/Quinto_HitN_v2_rr2_Sum.wav
 pitch_keycenter=63
 lokey=63
 hikey=63
@@ -1141,7 +1141,7 @@ seq_length=2
 seq_position=1
 lovel=100
 hivel=127
-sample=Quinto_HitN_v3_rr1_Sum.wav
+sample=001-Standard Kit/Quinto_HitN_v3_rr1_Sum.wav
 pitch_keycenter=63
 lokey=63
 hikey=63
@@ -1152,7 +1152,7 @@ seq_length=2
 seq_position=2
 lovel=100
 hivel=127
-sample=Quinto_HitN_v3_rr2_Sum.wav
+sample=001-Standard Kit/Quinto_HitN_v3_rr2_Sum.wav
 pitch_keycenter=63
 lokey=63
 hikey=63
@@ -1164,49 +1164,49 @@ loop_mode=one_shot
 key=65
 
 <region>
-sample=high hit 16.wav
+sample=001-Standard Kit/high hit 16.wav
 lovel=0
 hivel=15
 amp_velcurve_15=1
 
 <region>
-sample=high hit 20.wav
+sample=001-Standard Kit/high hit 20.wav
 lovel=16
 hivel=31
 amp_velcurve_31=1
 
 <region>
-sample=high hit 22.wav
+sample=001-Standard Kit/high hit 22.wav
 lovel=32
 hivel=47
 amp_velcurve_47=1
 
 <region>
-sample=high hit 24.wav
+sample=001-Standard Kit/high hit 24.wav
 lovel=48
 hivel=63
 amp_velcurve_63=1
 
 <region>
-sample=high hit 26.wav
+sample=001-Standard Kit/high hit 26.wav
 lovel=64
 hivel=79
 amp_velcurve_79=1
 
 <region>
-sample=high hit 28.wav
+sample=001-Standard Kit/high hit 28.wav
 lovel=80
 hivel=95
 amp_velcurve_95=1
 
 <region>
-sample=high hit 30.wav
+sample=001-Standard Kit/high hit 30.wav
 lovel=96
 hivel=111
 amp_velcurve_111=1
 
 <region>
-sample=high hit 31.wav
+sample=001-Standard Kit/high hit 31.wav
 lovel=112
 hivel=127
 amp_velcurve_127=1
@@ -1217,49 +1217,49 @@ loop_mode=one_shot
 key=66
 
 <region>
-sample=low hit 05.wav
+sample=001-Standard Kit/low hit 05.wav
 lovel=0
 hivel=15
 amp_velcurve_15=1
 
 <region>
-sample=low hit 07.wav
+sample=001-Standard Kit/low hit 07.wav
 lovel=16
 hivel=31
 amp_velcurve_31=1
 
 <region>
-sample=low hit 09.wav
+sample=001-Standard Kit/low hit 09.wav
 lovel=32
 hivel=47
 amp_velcurve_47=1
 
 <region>
-sample=low hit 11.wav
+sample=001-Standard Kit/low hit 11.wav
 lovel=48
 hivel=63
 amp_velcurve_63=1
 
 <region>
-sample=low hit 12.wav
+sample=001-Standard Kit/low hit 12.wav
 lovel=64
 hivel=79
 amp_velcurve_79=1
 
 <region>
-sample=low hit 14.wav
+sample=001-Standard Kit/low hit 14.wav
 lovel=80
 hivel=95
 amp_velcurve_95=1
 
 <region>
-sample=low hit 15.wav
+sample=001-Standard Kit/low hit 15.wav
 lovel=96
 hivel=111
 amp_velcurve_111=1
 
 <region>
-sample=low hit 16.wav
+sample=001-Standard Kit/low hit 16.wav
 lovel=112
 hivel=127
 amp_velcurve_127=1
@@ -1272,7 +1272,7 @@ ampeg_release=15.000000
 <region>
 lovel=0
 hivel=65
-sample=Agogo_High_v1_rr1_Mid.wav
+sample=001-Standard Kit/Agogo_High_v1_rr1_Mid.wav
 pitch_keycenter=67
 lokey=67
 hikey=67
@@ -1282,7 +1282,7 @@ volume=26.922982
 <region>
 lovel=66
 hivel=99
-sample=Agogo_High_v2_rr1_Mid.wav
+sample=001-Standard Kit/Agogo_High_v2_rr1_Mid.wav
 pitch_keycenter=67
 lokey=67
 hikey=67
@@ -1292,7 +1292,7 @@ volume=15.434500
 <region>
 lovel=100
 hivel=127
-sample=Agogo_High_v3_rr1_Mid.wav
+sample=001-Standard Kit/Agogo_High_v3_rr1_Mid.wav
 pitch_keycenter=67
 lokey=67
 hikey=67
@@ -1302,7 +1302,7 @@ volume=9.916934
 <region>
 lovel=0
 hivel=83
-sample=Agogo_Low_v1_rr1_Mid.wav
+sample=001-Standard Kit/Agogo_Low_v1_rr1_Mid.wav
 pitch_keycenter=68
 lokey=68
 hikey=68
@@ -1312,7 +1312,7 @@ volume=21.735236
 <region>
 lovel=84
 hivel=127
-sample=Agogo_Low_v2_rr1_Mid.wav
+sample=001-Standard Kit/Agogo_Low_v2_rr1_Mid.wav
 pitch_keycenter=68
 lokey=68
 hikey=68
@@ -1329,7 +1329,7 @@ seq_length=2
 seq_position=1
 lovel=0
 hivel=83
-sample=Cabasa1_Rub_v1_rr1_Mid.wav
+sample=001-Standard Kit/Cabasa1_Rub_v1_rr1_Mid.wav
 pitch_keycenter=69
 lokey=69
 hikey=69
@@ -1341,7 +1341,7 @@ seq_length=2
 seq_position=2
 lovel=0
 hivel=83
-sample=Cabasa1_Rub_v1_rr2_Mid.wav
+sample=001-Standard Kit/Cabasa1_Rub_v1_rr2_Mid.wav
 pitch_keycenter=69
 lokey=69
 hikey=69
@@ -1352,7 +1352,7 @@ seq_length=2
 seq_position=1
 lovel=84
 hivel=127
-sample=Cabasa1_Rub_v2_rr1_Mid.wav
+sample=001-Standard Kit/Cabasa1_Rub_v2_rr1_Mid.wav
 pitch_keycenter=69
 lokey=69
 hikey=69
@@ -1364,7 +1364,7 @@ seq_length=2
 seq_position=2
 lovel=84
 hivel=127
-sample=Cabasa1_Rub_v2_rr2_Mid.wav
+sample=001-Standard Kit/Cabasa1_Rub_v2_rr2_Mid.wav
 pitch_keycenter=69
 lokey=69
 hikey=69
@@ -1378,23 +1378,23 @@ key=70
 seq_length=5
 
 <region>
-sample=maraca1.wav
+sample=001-Standard Kit/maraca1.wav
 seq_position=1
 
 <region>
-sample=maraca2.wav
+sample=001-Standard Kit/maraca2.wav
 seq_position=2
 
 <region>
-sample=maraca3.wav
+sample=001-Standard Kit/maraca3.wav
 seq_position=3
 
 <region>
-sample=maraca4.wav
+sample=001-Standard Kit/maraca4.wav
 seq_position=4
 
 <region>
-sample=maraca5.wav
+sample=001-Standard Kit/maraca5.wav
 seq_position=5
 
 //Whistle
@@ -1403,14 +1403,14 @@ ampeg_attack=0.004000
 ampeg_release=30.000000
 
 <region>
-sample=Main_BallWhistle_Long-001.wav
+sample=001-Standard Kit/Main_BallWhistle_Long-001.wav
 pitch_keycenter=72
 lokey=72
 hikey=72offset=320
 volume=8.000000
 
 <region>
-sample=Main_BallWhistle_Short-001.wav
+sample=001-Standard Kit/Main_BallWhistle_Short-001.wav
 pitch_keycenter=71
 lokey=71
 hikey=71
@@ -1423,14 +1423,14 @@ ampeg_attack=0.004000
 ampeg_release=30.000000
 
 <region>
-sample=Guiro_Fast_rr1_Mid.wav
+sample=001-Standard Kit/Guiro_Fast_rr1_Mid.wav
 pitch_keycenter=73
 lokey=73
 hikey=73
 offset=179
 volume=15.000000
 <region>
-sample=Guiro_Med_rr1_Mid.wav
+sample=001-Standard Kit/Guiro_Med_rr1_Mid.wav
 pitch_keycenter=74
 lokey=74
 hikey=74
@@ -1445,7 +1445,7 @@ ampeg_release=15.000000
 <region>
 lovel=0
 hivel=65
-sample=Claves1_Hit_v1_rr1_Mid.wav
+sample=001-Standard Kit/Claves1_Hit_v1_rr1_Mid.wav
 pitch_keycenter=75
 lokey=75
 hikey=75
@@ -1455,7 +1455,7 @@ volume=27.978784
 <region>
 lovel=66
 hivel=99
-sample=Claves1_Hit_v2_rr1_Mid.wav
+sample=001-Standard Kit/Claves1_Hit_v2_rr1_Mid.wav
 pitch_keycenter=75
 lokey=75
 hikey=75
@@ -1465,7 +1465,7 @@ volume=16.154272
 <region>
 lovel=100
 hivel=127
-sample=Claves1_Hit_v3_rr1_Mid.wav
+sample=001-Standard Kit/Claves1_Hit_v3_rr1_Mid.wav
 pitch_keycenter=75
 lokey=75
 hikey=75
@@ -1480,7 +1480,7 @@ ampeg_release=30.000000
 <region>
 lovel=0
 hivel=127
-sample=wood_click_ff.wav
+sample=001-Standard Kit/wood_click_ff.wav
 pitch_keycenter=75
 lokey=76
 hikey=76
@@ -1490,7 +1490,7 @@ volume=1.937063 tune=50
 <region>
 lovel=0
 hivel=127
-sample=wood_click_ff.wav
+sample=001-Standard Kit/wood_click_ff.wav
 pitch_keycenter=79
 lokey=77
 hikey=77
@@ -1503,22 +1503,22 @@ loop_mode=one_shot
 key=78
 
 <region>
-sample=191224__seidhepriest__cuica-high-1.wav
+sample=001-Standard Kit/191224__seidhepriest__cuica-high-1.wav
 lovel=0
 hivel=31
 
 <region>
-sample=191223__seidhepriest__cuica-high-2.wav
+sample=001-Standard Kit/191223__seidhepriest__cuica-high-2.wav
 lovel=32
 hivel=63
 
 <region>
-sample=191222__seidhepriest__cuica-high-3.wav
+sample=001-Standard Kit/191222__seidhepriest__cuica-high-3.wav
 lovel=64
 hivel=95
 
 <region>
-sample=191221__seidhepriest__cuica-high-4.wav
+sample=001-Standard Kit/191221__seidhepriest__cuica-high-4.wav
 lovel=96
 hivel=127
 
@@ -1528,22 +1528,22 @@ loop_mode=one_shot
 key=79
 
 <region>
-sample=191228__seidhepriest__cuica-low-1.wav
+sample=001-Standard Kit/191228__seidhepriest__cuica-low-1.wav
 lovel=0
 hivel=31
 
 <region>
-sample=191227__seidhepriest__cuica-low-2.wav
+sample=001-Standard Kit/191227__seidhepriest__cuica-low-2.wav
 lovel=32
 hivel=63
 
 <region>
-sample=191226__seidhepriest__cuica-low-3.wav
+sample=001-Standard Kit/191226__seidhepriest__cuica-low-3.wav
 lovel=64
 hivel=95
 
 <region>
-sample=191225__seidhepriest__cuica-low-4.wav
+sample=001-Standard Kit/191225__seidhepriest__cuica-low-4.wav
 lovel=96
 hivel=127
 
@@ -1556,7 +1556,7 @@ ampeg_release=30.000000
 <region>
 seq_length=1
 seq_position=1
-sample=Triangle1_hitFM_v2_rr1_Mid.wav
+sample=001-Standard Kit/Triangle1_hitFM_v2_rr1_Mid.wav
 pitch_keycenter=80
 lokey=80
 hikey=80
@@ -1568,7 +1568,7 @@ seq_length=1
 seq_position=1
 lovel=0
 hivel=127
-sample=Triangle1_Hit_v2_rr2_Mid.wav
+sample=001-Standard Kit/Triangle1_Hit_v2_rr2_Mid.wav
 pitch_keycenter=81
 lokey=81
 hikey=81
@@ -1584,7 +1584,7 @@ ampeg_release=30.000000
 <region>
 seq_length=2
 seq_position=1
-sample=Mid_Shaker_Slap_rr1.wav
+sample=001-Standard Kit/Mid_Shaker_Slap_rr1.wav
 pitch_keycenter=82
 lokey=82
 hikey=82
@@ -1593,7 +1593,7 @@ volume=19.259504
 <region>
 seq_length=2
 seq_position=2
-sample=Mid_Shaker_Slap_rr2.wav
+sample=001-Standard Kit/Mid_Shaker_Slap_rr2.wav
 pitch_keycenter=82
 lokey=82
 hikey=82
@@ -1608,7 +1608,7 @@ ampeg_release=1.000000
 <region>
 seq_length=1
 seq_position=1
-sample=Sleighbells_Hit_rr2_Mid.wav
+sample=001-Standard Kit/Sleighbells_Hit_rr2_Mid.wav
 pitch_keycenter=83
 lokey=83
 hikey=83
@@ -1622,7 +1622,7 @@ ampeg_attack=0.004000
 ampeg_release=15.000000
 
 <region>
-sample=BellTree_Stroke_6_Mid.wav
+sample=001-Standard Kit/BellTree_Stroke_6_Mid.wav
 pitch_keycenter=84
 lokey=84
 hikey=84
@@ -1636,22 +1636,22 @@ loop_mode=one_shot
 key=85
 
 <region>
-sample=234373__seidhepriest__castagnette-plastic-1.wav
+sample=001-Standard Kit/234373__seidhepriest__castagnette-plastic-1.wav
 lovel=0
 hivel=31
 
 <region>
-sample=234372__seidhepriest__castagnette-plastic-2.wav
+sample=001-Standard Kit/234372__seidhepriest__castagnette-plastic-2.wav
 lovel=32
 hivel=63
 
 <region>
-sample=234371__seidhepriest__castagnette-plastic-3.wav
+sample=001-Standard Kit/234371__seidhepriest__castagnette-plastic-3.wav
 lovel=64
 hivel=95
 
 <region>
-sample=234370__seidhepriest__castagnette-plastic-4.wav
+sample=001-Standard Kit/234370__seidhepriest__castagnette-plastic-4.wav
 lovel=96
 hivel=127
 
@@ -1661,13 +1661,13 @@ loop_mode=one_shot
 key=86
 
 <region>
-sample=Close_Mute.wav
+sample=001-Standard Kit/Close_Mute.wav
 lovel=0
 hivel=127
 amp_velcurve_127=1
 
 <region>
-sample=Room_Mute.wav
+sample=001-Standard Kit/Room_Mute.wav
 lovel=0
 hivel=127
 amp_velcurve_127=1
@@ -1678,97 +1678,97 @@ loop_mode=one_shot
 key=87
 
 <region>
-sample=Close_Open_Vel1.wav
+sample=001-Standard Kit/Close_Open_Vel1.wav
 lovel=112
 hivel=127
 amp_velcurve_127=1
 
 <region>
-sample=Close_Open_Vel2.wav
+sample=001-Standard Kit/Close_Open_Vel2.wav
 lovel=96
 hivel=111
 amp_velcurve_111=1
 
 <region>
-sample=Close_Open_Vel3.wav
+sample=001-Standard Kit/Close_Open_Vel3.wav
 lovel=80
 hivel=95
 amp_velcurve_95=1
 
 <region>
-sample=Close_Open_Vel4.wav
+sample=001-Standard Kit/Close_Open_Vel4.wav
 lovel=64
 hivel=79
 amp_velcurve_79=1
 
 <region>
-sample=Close_Open_Vel5.wav
+sample=001-Standard Kit/Close_Open_Vel5.wav
 lovel=48
 hivel=63
 amp_velcurve_63=1
 
 <region>
-sample=Close_Open_Vel6.wav
+sample=001-Standard Kit/Close_Open_Vel6.wav
 lovel=32
 hivel=47
 amp_velcurve_47=1
 
 <region>
-sample=Close_Open_Vel7.wav
+sample=001-Standard Kit/Close_Open_Vel7.wav
 lovel=16
 hivel=31
 amp_velcurve_31=1
 
 <region>
-sample=Close_Open_Vel8.wav
+sample=001-Standard Kit/Close_Open_Vel8.wav
 lovel=0
 hivel=15
 amp_velcurve_15=1
 
 <region>
-sample=Room_Open_Vel1.wav
+sample=001-Standard Kit/Room_Open_Vel1.wav
 lovel=112
 hivel=127
 amp_velcurve_127=1
 
 <region>
-sample=Room_Open_Vel2.wav
+sample=001-Standard Kit/Room_Open_Vel2.wav
 lovel=96
 hivel=111
 amp_velcurve_111=1
 
 <region>
-sample=Room_Open_Vel3.wav
+sample=001-Standard Kit/Room_Open_Vel3.wav
 lovel=80
 hivel=95
 amp_velcurve_95=1
 
 <region>
-sample=Room_Open_Vel4.wav
+sample=001-Standard Kit/Room_Open_Vel4.wav
 lovel=64
 hivel=79
 amp_velcurve_79=1
 
 <region>
-sample=Room_Open_Vel5.wav
+sample=001-Standard Kit/Room_Open_Vel5.wav
 lovel=48
 hivel=63
 amp_velcurve_63=1
 
 <region>
-sample=Room_Open_Vel6.wav
+sample=001-Standard Kit/Room_Open_Vel6.wav
 lovel=32
 hivel=47
 amp_velcurve_47=1
 
 <region>
-sample=Room_Open_Vel7.wav
+sample=001-Standard Kit/Room_Open_Vel7.wav
 lovel=16
 hivel=31
 amp_velcurve_31=1
 
 <region>
-sample=Room_Open_Vel8.wav
+sample=001-Standard Kit/Room_Open_Vel8.wav
 lovel=0
 hivel=15
 amp_velcurve_15=1

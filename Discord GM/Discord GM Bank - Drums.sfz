@@ -1,3 +1,5 @@
+
+
 // Drums controls
 
 <global>
@@ -15,3 +17,7 @@ pan_oncc10=200
 <control>
 default_path=Drums/
 
+
+// Drums instruments
+
+<master> loprog=0 hiprog=0 master_volume=0 master_label=1:1 - Standard Kit - Kinwie #include "Drums/001-Standard Kit.sfz"

@@ -2,11 +2,15 @@
 #
 # Create GM sfz from control file
 #
-# Usage: mkgm.sh [-f flac] [-t] [plan-file]
+# Usage: mkgm.sh [-f flac] [-t] [-d] [-m] [plan-file]
 #
 # where
 #   -f flac = build flac-format (including converting .wav samples) [NYI]
-#   -t = build test/debug format (using sequential program numbers rather than GM bank numbers)
+#   -t = build test format (using sequential program numbers rather than GM bank numbers)
+#   -d = build melodic only
+#   -t = build drums only
+#   -c = build combined only
+#   Default is to build all three.
 
 # Script license: Creative Commons CC0 - Jeff Learman
 
@@ -14,7 +18,7 @@
 # Create six versions:
 #   melodic only
 #   drums only
-#   combined        *** Currently only this one is supported! ***
+#   combined
 #   melodic only, simplified
 #   drums only, simplified
 #   combined, simplified
@@ -47,126 +51,190 @@
 # tools dir
 TOOLS=tools
 
-FMT=wav
-if [[ $1 = -f ]] ; then
-    FMT=$2
-    shift 2
-fi
+# soundfont name prefix (before -drums, -melodic, etc.)
+SETNAME="Discord GM Bank"
 
-# Debug mode: use sequential program numbers rather than GM bank numbers,
-# to make it easier to scroll through a sparse set.
-
+BUILD_MELODIC=false
+BUILD_DRUMS=false
+BUILD_COMBINED=false
+BUILD_ALL=true
 TEST=false
 SUFFIX=
-if [[ $1 = -t ]] ; then
-    shift
-    TEST=true
-    SUFFIX=-test
+FMT=wav
+
+# parse option switches
+
+while [[ ${1:0:1} = "-" ]] ; do
+    if [[ $1 = -f ]] ; then
+        FMT=$2
+        shift 2
+    fi
+
+    # Test mode: use sequential program numbers rather than GM bank numbers,
+    # to make it easier to scroll through a sparse set.
+    if [[ $1 = -t ]] ; then
+        TEST=true
+        SUFFIX=-test
+        shift
+    elif [[ $1 = -d ]] ; then
+        BUILD_DRUMS=true
+        BUILD_ALL=false
+        shift
+    elif [[ $1 = -m ]] ; then
+        BUILD_MELODIC=true
+        BUILD_ALL=false
+        shift
+    elif [[ $1 = -c ]] ; then
+        BUILD_COMBINED=true
+        BUILD_ALL=false
+        shift
+    else
+        echo "unrecognized option: $1"
+        exit 1
+    fi
+done
+
+if $BUILD_ALL ; then
+    BUILD_MELODIC=true
+    BUILD_DRUMS=true
+    BUILD_COMBINED=true
 fi
 
+# 1st argument: plan file
 PLANFILE=${1:-$TOOLS/GM-plan.txt}
 
 GLOBAL_NAME="Discord GM"
-OUTFILE="Discord GM Bank$SUFFIX.sfz"
-TMPFILE=tmp.sfz
 
-echo > $TMPFILE
-# put global stuff here
+buildsfz()
+{
+    BUILD_TYPE=$1; shift
+    OUTFILE="$1$SUFFIX.sfz"; shift
+    TMPFILE=tmp.sfz
 
-echo >> $TMPFILE
+    echo > $TMPFILE
+    # put global stuff here
 
-let "SFZPROG = -1"
-LASTTYPE=none
-grep -v "^#" $PLANFILE | while read LINE ; do
-    LINE=`echo "$LINE" | tr -d '\r'`
-    BANK=1
+    echo >> $TMPFILE
 
-    TYPE=`      echo $LINE | cut -d\| -f1 | xargs echo -n`
-    PROG=`      echo $LINE | cut -d\| -f2 | xargs echo -n`
-    VOL=`       echo $LINE | cut -d\| -f3 | xargs echo -n`
-    SFZ=`       echo $LINE | cut -d\| -f4 | xargs echo -n`
-    GMNAME=`    echo $LINE | cut -d\| -f5 | xargs echo -n`
-    SFNAME=`    echo $LINE | cut -d\| -f6 | xargs echo -n`
+    let "SFZPROG = -1"
+    LASTTYPE=none
+    SPACE=$'x'
+    grep -v "^#" $PLANFILE | tr -d '\r' | while IFS="|" read TYPE PROG VOL SFZ GMNAME SFNAME ; do
+        BANK=1
 
-    # skip blank lines -- yeah there's a better way
-    if [[ $TYPE == "" ]] ; then
-        continue
-    fi
+        # strip leading & trailing spaces
+        TYPE=`echo $TYPE`
+        let "PROG = $PROG"
+        VOL=`echo $VOL`
+        SFZ=`echo $SFZ`
+        GMNAME=`echo $GMNAME`
+        SFNAME=`echo $SFNAME`
 
-    if [[ $LASTTYPE != $TYPE ]] && [[ -f $TOOLS/header-$TYPE.txt ]] ; then
-        cat $TOOLS/header-$TYPE.txt
+        # skip blank lines -- yeah there's a better way
+        if [[ $TYPE == "" ]] ; then
+            continue
+        fi
+
+        if [[ $BUILD_TYPE != combined ]] && [[ $BUILD_TYPE != $TYPE ]] ; then
+            continue
+        fi
+
+        if [[ $LASTTYPE != $TYPE ]] && [[ -f $TOOLS/header-$TYPE.txt ]] ; then
+            cat $TOOLS/header-$TYPE.txt
+            echo
+            echo "// $TYPE instruments"
+            echo
+            if [[ $BUILD_TYPE = all ]] ; then
+                if [[ $TYPE = Drums ]] ; then
+                    echo
+                    echo "locc0=0 hicc0=120 locc0=120 hicc0=120"
+                    echo
+                elif [[ $TYPE = Melodic ]] ; then
+                    echo
+                    echo "locc0=121 hicc0=127 locc32=0 hicc32=0"
+                    echo
+                fi
+            fi
+        fi
+
+        SFZFILE=$TYPE/$SFZ.sfz
+        SAMPFLDR=$TYPE/$SFZ
+
+        if [[ "$SFNAME" = "none" ]] ; then
+            LASTTYPE=$TYPE
+            continue
+        fi
+
+        if $TEST ; then
+            let "SFZPROG = SFZPROG + 1"
+            let "TEST_PROG = SFZPROG + 1"
+            let "MENUPROG = $SFZPROG + 1"
+            MENUPROG="$PROG($MENUPROG)"
+        else
+            let "SFZPROG = $PROG - 1"
+            let "MENUPROG = $PROG"
+        fi
+
+        if [[ ! -f "$SFZFILE" ]] ; then
+            echo "Error: Sample file \"$SFZFILE\" does not exist" 1>&2
+            exit 1
+        fi
+
+        if [[ ! -d "$SAMPFLDR" ]] ; then
+            echo "Error: Sample folder \"$SAMPFLDR\" does not exist" 1>&2
+            exit 1
+        fi
+
+        (
+        printf "%-14s  " "TYPE=\"$TYPE\""
+        printf "%-12s " "PROG=\"$MENUPROG\""
+        printf "%-10s " "VOL=\"$VOL\""
+        printf "%-34s " "SFZ=\"$SFZ\""
+        printf "%-34s " "GMNAME=\"$GMNAME\""
+        printf "%-30s " "SFNAME=\"$SFNAME\""
         echo
-        echo "// $TYPE instruments"
-        echo
-    fi
+        ) 1>&2
 
-    SFZFILE=$TYPE/$SFZ.sfz
-    SAMPFLDR=$TYPE/$SFZ
+        if [[ $BANK != 1 ]] ; then
+            echo "Banks other than 1 not yet supported, ignoring."
+        fi
 
-    # DELETEME: quick results during initial debug
-    if $TEST && [[ $PROG -gt 26 ]] ; then
-        break
-    fi
+        let "SFZBANK = $BANK - 1"
 
-    if [[ "$SFNAME" = "none" ]] ; then
+        # // 0 Acoustic Grand Piano
+        # <master> loprog=0 hiprog=0 master_label=1 - Acoustic Grand Piano - Salamander Grand
+        # #include "SalamanderGrand.sfz"
+
+        if $TEST ; then
+            P="$PROG($TEST_PROG)"
+        else
+            P=$PROG
+        fi
+        echo "<master> loprog=$SFZPROG hiprog=$SFZPROG master_volume=$VOL master_label=$BANK:$P - $GMNAME - $SFNAME #include \"$SFZFILE\""
+
         LASTTYPE=$TYPE
-        continue
-    fi
 
-    if $TEST ; then
-        let "SFZPROG = SFZPROG + 1"
-        let "TEST_PROG = SFZPROG + 1"
-        let "MENUPROG = $SFZPROG + 1"
-        MENUPROG="$PROG($MENUPROG)"
-    else
-        let "SFZPROG = $PROG - 1"
-        let "MENUPROG = $PROG"
-    fi
+    done >> $TMPFILE
 
-    if [[ ! -f "$SFZFILE" ]] ; then
-        echo "Error: Sample file \"$SFZFILE\" does not exist" 1>&2
+    if [[ $? != 0 ]] ; then
         exit 1
     fi
 
-    if [[ ! -d "$SAMPFLDR" ]] ; then
-        echo "Error: Sample folder \"$SAMPFLDR\" does not exist" 1>&2
-        exit 1
-    fi
+    mv $TMPFILE "$OUTFILE"
+}
 
-    (
-    printf "%-8s  " "TYPE=\"$TYPE\""
-    printf "%-12s " "PROG=\"$MENUPROG\""
-    printf "%-10s " "VOL=\"$VOL\""
-    printf "%-34s " "SFZ=\"$SFZ\""
-    printf "%-34s " "GMNAME=\"$GMNAME\""
-    printf "%-30s " "SFNAME=\"$SFNAME\""
-    echo
-    ) 1>&2
-
-    if [[ $BANK != 1 ]] ; then
-        echo "Banks other than 1 not yet supported, ignoring."
-    fi
-
-    let "SFZBANK = $BANK - 1"
-
-    # // 0 Acoustic Grand Piano
-    # <master> loprog=0 hiprog=0 master_label=1 - Acoustic Grand Piano - Salamander Grand
-    # #include "SalamanderGrand.sfz"
-
-    if $TEST ; then
-        P="$PROG($TEST_PROG)"
-    else
-        P=$PROG
-    fi
-    echo "<master> loprog=$SFZPROG hiprog=$SFZPROG master_volume=$VOL master_label=$BANK:$P - $GMNAME - $SFNAME #include \"$SFZFILE\""
-
-    LASTTYPE=$TYPE
-
-done >> $TMPFILE
-
-if [[ $? != 0 ]] ; then
-    exit 1
+if $BUILD_MELODIC ; then
+    echo "... building melodic sfz"
+    buildsfz Melodic "$SETNAME - Melodic"
 fi
 
-mv $TMPFILE "$OUTFILE"
+if $BUILD_DRUMS ; then
+    echo "... building drums sfz"
+    buildsfz Drums "$SETNAME - Drums"
+fi
+
+if $BUILD_COMBINED ; then
+    echo "... building combined sfz"
+    buildsfz combined "$SETNAME"
+fi
 

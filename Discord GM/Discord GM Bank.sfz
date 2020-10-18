@@ -24,7 +24,7 @@ label_cc10=Pan (10) set_hdcc10=0.5
 global_label=Melodic
 //locc0=121 hicc0=127
 //locc32=0 hicc32=0
-locc0=0 hicc0=0
+//locc0=0 hicc0=0
 
 ampeg_attack_oncc73=5
 ampeg_attack_curvecc73=1
@@ -58,7 +58,7 @@ pan_oncc10=200
 //global_label=Bank 129
 global_label=Drums
 //locc0=0 hicc0=120
-locc0=120 hicc0=120
+//locc0=120 hicc0=120
 
 amp_veltrack=0
 amp_veltrack_oncc118=100
@@ -66,6 +66,10 @@ amplitude_oncc7=100
 pan=-100
 pan_oncc10=200
 
+<control>
+default_path=Drums/
+
 
 // Drums instruments
 
+<master> loprog=0 hiprog=0 master_volume=0 master_label=1:1 - Standard Kit - Kinwie #include "Drums/001-Standard Kit.sfz"
