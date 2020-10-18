@@ -137,7 +137,7 @@ Melodic | 125 |  0   | 125-Telephone Ring           | Telephone Ring           |
 Melodic | 126 |  0   | 126-Helicopter               | Helicopter               | none
 Melodic | 127 |  0   | 127-Applause                 | Applause                 | none
 Melodic | 128 |  0   | 128-Gunshot                  | Gunshot                  | none
-Drums   |   1 |  0   | 001-Standard Kit             | Standard Kit             | none
+Drums   |   1 |  0   | 001-Standard Kit             | Standard Kit             | Kinwie
 Drums   |   9 |  0   | 009-Room Kit                 | Room Kit                 | none
 Drums   |  17 |  0   | 017-Power Kit                | Power Kit                | none
 Drums   |  25 |  0   | 025-Electronic Kit           | Electronic Kit           | none
