@@ -1,157 +1,34 @@
-<control>
+// GM Tremolo Strings
+// A custom mix of VCSL and VSCO 2 strings (plus some contrabass string samples) which Samulis pre-panned and rendered in ARIA in m3rds
+// License: Creative Commons CC0
+// Source: https://vis.versilstudios.com
 
+<group> //Begin Group for entire instrument
 
-default_path=TremStr\
-
-
-<global>
-
-
-
-
-ampeg_attack=0.001
-
-
+// ampeg_attack=0.001
 ampeg_release=0.7
-
-
 cutoff=2000
 fil_type=lpf_1p
 fil_keytrack=100
 fil_keycenter=60
 fil_random=150
 fil_veltrack=9000
-
 amp_veltrack=95
+// volume=0
 
-
-volume=0
-
-
-
-
-<group> //Begin Group for entire instrument
-
-
-
-
-<region>
-sample=VS_TremStr_C1.wav
-lokey=34
-hikey=37
-pitch_keycenter=36
-
-
-
-<region>
-sample=VS_TremStr_C2.wav
-lokey=46
-hikey=49
-pitch_keycenter=48
-
-
-
-<region>
-sample=VS_TremStr_C3.wav
-lokey=58
-hikey=61
-pitch_keycenter=60
-
-
-
-<region>
-sample=VS_TremStr_C4.wav
-lokey=70
-hikey=73
-pitch_keycenter=72
-
-
-
-<region>
-sample=VS_TremStr_C5.wav
-lokey=82
-hikey=84
-pitch_keycenter=84
-
-
-
-<region>
-sample=VS_TremStr_E0.wav
-lokey=28
-hikey=29
-pitch_keycenter=28
-
-
-
-<region>
-sample=VS_TremStr_E1.wav
-lokey=38
-hikey=41
-pitch_keycenter=40
-
-
-
-<region>
-sample=VS_TremStr_E2.wav
-lokey=50
-hikey=53
-pitch_keycenter=52
-
-
-
-<region>
-sample=VS_TremStr_E3.wav
-lokey=62
-hikey=65
-pitch_keycenter=64
-
-
-
-<region>
-sample=VS_TremStr_E4.wav
-lokey=74
-hikey=77
-pitch_keycenter=76
-
-
-
-<region>
-sample=VS_TremStr_G#0.wav
-lokey=30
-hikey=33
-pitch_keycenter=32
-
-
-
-<region>
-sample=VS_TremStr_G#1.wav
-lokey=42
-hikey=45
-pitch_keycenter=44
-
-
-
-<region>
-sample=VS_TremStr_G#2.wav
-lokey=54
-hikey=57
-pitch_keycenter=56
-
-
-
-<region>
-sample=VS_TremStr_G#3.wav
-lokey=66
-hikey=69
-pitch_keycenter=68
-
-
-
-<region>
-sample=VS_TremStr_G#4.wav
-lokey=78
-hikey=81
-pitch_keycenter=80
-
-
+<region> sample=045-Tremolo Strings/VS_TremStr_E0.wav  lokey=28 hikey=29 pitch_keycenter=28
+<region> sample=045-Tremolo Strings/VS_TremStr_G#0.wav lokey=30 hikey=33 pitch_keycenter=32
+<region> sample=045-Tremolo Strings/VS_TremStr_C1.wav  lokey=34 hikey=37 pitch_keycenter=36
+<region> sample=045-Tremolo Strings/VS_TremStr_E1.wav  lokey=38 hikey=41 pitch_keycenter=40
+<region> sample=045-Tremolo Strings/VS_TremStr_G#1.wav lokey=42 hikey=45 pitch_keycenter=44
+<region> sample=045-Tremolo Strings/VS_TremStr_C2.wav  lokey=46 hikey=49 pitch_keycenter=48
+<region> sample=045-Tremolo Strings/VS_TremStr_E2.wav  lokey=50 hikey=53 pitch_keycenter=52
+<region> sample=045-Tremolo Strings/VS_TremStr_G#2.wav lokey=54 hikey=57 pitch_keycenter=56
+<region> sample=045-Tremolo Strings/VS_TremStr_C3.wav  lokey=58 hikey=61 pitch_keycenter=60
+<region> sample=045-Tremolo Strings/VS_TremStr_E3.wav  lokey=62 hikey=65 pitch_keycenter=64
+<region> sample=045-Tremolo Strings/VS_TremStr_G#3.wav lokey=66 hikey=69 pitch_keycenter=68
+<region> sample=045-Tremolo Strings/VS_TremStr_C4.wav  lokey=70 hikey=73 pitch_keycenter=72
+<region> sample=045-Tremolo Strings/VS_TremStr_E4.wav  lokey=74 hikey=77 pitch_keycenter=76
+<region> sample=045-Tremolo Strings/VS_TremStr_G#4.wav lokey=78 hikey=81 pitch_keycenter=80
+<region> sample=045-Tremolo Strings/VS_TremStr_C5.wav  lokey=82 hikey=84 pitch_keycenter=84
 
