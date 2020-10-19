@@ -76,6 +76,7 @@ while [[ ${1:0:1} = "-" ]] ; do
         TEST=true
         SUFFIX=-test
         shift
+        echo "... making test version(s)"
     elif [[ $1 = -d ]] ; then
         BUILD_DRUMS=true
         BUILD_ALL=false

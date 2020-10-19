@@ -53,8 +53,8 @@ Melodic |  41 |  0   | 041-Violin                   | Violin                   |
 Melodic |  42 |  0   | 042-Viola                    | Viola                    | none
 Melodic |  43 |  0   | 043-Cello                    | Cello                    | none
 Melodic |  44 |  0   | 044-Contrabass               | Contrabass               | none
-Melodic |  45 |  0   | 045-Tremolo Strings          | Tremolo Strings          | none
-Melodic |  46 |  0   | 046-Pizzicato Strings        | Pizzicato Strings        | none
+Melodic |  45 |  0   | 045-Tremolo Strings          | Tremolo Strings          | Versilian Studios
+Melodic |  46 |  0   | 046-Pizzicato Strings        | Pizzicato Strings        | Versilian Studios
 Melodic |  47 |  0   | 047-Orchestral Harp          | Orchestral Harp          | none
 Melodic |  48 |  0   | 048-Timpani                  | Timpani                  | none
 Melodic |  49 |  0   | 049-String Ensemble 1        | String Ensemble 1        | none
