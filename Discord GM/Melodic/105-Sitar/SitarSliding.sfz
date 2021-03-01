@@ -1,0 +1,37 @@
+//-----------------------------------------------------------------------------------
+// sfz Definition File for Sitar sliding
+// 
+// this file is  created for testing purpose only
+// for indian instruments.
+//-----------------------------------------------------------------------------------
+<control>
+default_path=
+
+<group>
+
+volume=4
+
+group=1
+off_by=1
+ampeg_release=4
+off_mode=normal
+
+<region> pitch_keycenter=c2 lokey=c0 hikey=c#2 sample=IndianStrings/Sitar/Ssld01.flac
+<region> pitch_keycenter=d2 lokey=d2 hikey=d#2 sample=IndianStrings/Sitar/Ssld02.flac
+<region> pitch_keycenter=e2 lokey=e2 hikey=e2 sample=IndianStrings/Sitar/Ssld03.flac
+<region> pitch_keycenter=f2 lokey=f2 hikey=f#2 sample=IndianStrings/Sitar/Ssld04.flac
+<region> pitch_keycenter=g2 lokey=g2 hikey=g#2 sample=IndianStrings/Sitar/Ssld05.flac
+<region> pitch_keycenter=a2 lokey=a2 hikey=a#2 sample=IndianStrings/Sitar/Ssld06.flac
+<region> pitch_keycenter=b2 lokey=b2 hikey=b2 sample=IndianStrings/Sitar/Ssld07.flac
+<region> pitch_keycenter=c3 lokey=c3 hikey=c#3 sample=IndianStrings/Sitar/Ssld08.flac
+<region> pitch_keycenter=d3 lokey=d3 hikey=d#3 sample=IndianStrings/Sitar/Ssld09.flac
+<region> pitch_keycenter=e3 lokey=e3 hikey=e3 sample=IndianStrings/Sitar/Ssld10.flac
+<region> pitch_keycenter=f3 lokey=f3 hikey=f#3 sample=IndianStrings/Sitar/Ssld11.flac
+<region> pitch_keycenter=g3 lokey=g3 hikey=g#3 sample=IndianStrings/Sitar/Ssld12.flac
+<region> pitch_keycenter=a3 lokey=a3 hikey=a#3 sample=IndianStrings/Sitar/Ssld13.flac
+<region> pitch_keycenter=b3 lokey=b3 hikey=b3 sample=IndianStrings/Sitar/Ssld14.flac
+<region> pitch_keycenter=c4 lokey=c4 hikey=c#4 sample=IndianStrings/Sitar/Ssld15.flac
+<region> pitch_keycenter=d4 lokey=d4 hikey=d#4 sample=IndianStrings/Sitar/Ssld16.flac
+<region> pitch_keycenter=e4 lokey=e4 hikey=e4 sample=IndianStrings/Sitar/Ssld17.flac
+<region> pitch_keycenter=f4 lokey=f4 hikey=f#4 sample=IndianStrings/Sitar/Ssld18.flac
+<region> pitch_keycenter=g4 lokey=g4 hikey=c6 sample=IndianStrings/Sitar/Ssld19.flac
