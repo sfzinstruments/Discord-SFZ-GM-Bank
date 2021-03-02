@@ -1,0 +1,72 @@
+//-----------------------------------------------------------------------------------
+// sfz Definition File
+// 
+// this file is  created for testing purpose only
+// for indian instruments.
+//-----------------------------------------------------------------------------------
+
+
+<global>
+
+group=1
+off_by=1
+off_mode=normal
+
+ampeg_attack=0.01
+ampeg_release=0.03
+offset=100
+cutoff=5000
+
+<group>
+trigger=first
+loop_mode=loop_continuous
+
+<region> pitch_keycenter=c1 lokey=c0 hikey=c#1 Sample=Shn01.flac
+<region> pitch_keycenter=d1 lokey=d1 hikey=d#1 Sample=Shn02.flac
+<region> pitch_keycenter=e1 lokey=e1 hikey=e1 Sample=Shn03.flac
+<region> pitch_keycenter=f1 lokey=f1 hikey=f#1 Sample=Shn04.flac
+<region> pitch_keycenter=g1 lokey=g1 hikey=g#1 Sample=Shn05.flac
+<region> pitch_keycenter=a1 lokey=a1 hikey=a#1 Sample=Shn06.flac
+<region> pitch_keycenter=b1 lokey=b1 hikey=b1 Sample=Shn07.flac
+<region> pitch_keycenter=c2 lokey=c2 hikey=c#2 Sample=Shn08.flac
+<region> pitch_keycenter=d2 lokey=d2 hikey=d#2 Sample=Shn09.flac
+<region> pitch_keycenter=e2 lokey=e2 hikey=e2 Sample=Shn10.flac
+<region> pitch_keycenter=f2 lokey=f2 hikey=f#2 Sample=Shn11.flac
+<region> pitch_keycenter=g2 lokey=g2 hikey=g#2 Sample=Shn12.flac
+<region> pitch_keycenter=a2 lokey=a2 hikey=a#2 Sample=Shn13.flac
+<region> pitch_keycenter=b2 lokey=b2 hikey=b2 Sample=Shn14.flac
+<region> pitch_keycenter=c3 lokey=c3 hikey=c#3 Sample=Shn15.flac
+<region> pitch_keycenter=d3 lokey=d3 hikey=d#3 Sample=Shn16.flac
+<region> pitch_keycenter=e3 lokey=e3 hikey=e3 Sample=Shn17.flac
+<region> pitch_keycenter=f3 lokey=f3 hikey=f#3 Sample=Shn18.flac
+<region> pitch_keycenter=g3 lokey=g3 hikey=g#3 Sample=Shn19.flac
+<region> pitch_keycenter=a3 lokey=a3 hikey=a#3 Sample=Shn20.flac
+<region> pitch_keycenter=b3 lokey=b3 hikey=b3 Sample=Shn21.flac
+<region> pitch_keycenter=c4 lokey=c4 hikey=c7 Sample=Shn22.flac
+
+<group>
+trigger=legato
+ampeg_attack=0.08
+ampeg_release=0.2
+<region> pitch_keycenter=c1 lokey=c0 hikey=c#1 Sample=Shn01.flac
+<region> pitch_keycenter=d1 lokey=d1 hikey=d#1 Sample=Shn02.flac
+<region> pitch_keycenter=e1 lokey=e1 hikey=e1 Sample=Shn03.flac
+<region> pitch_keycenter=f1 lokey=f1 hikey=f#1 Sample=Shn04.flac
+<region> pitch_keycenter=g1 lokey=g1 hikey=g#1 Sample=Shn05.flac
+<region> pitch_keycenter=a1 lokey=a1 hikey=a#1 Sample=Shn06.flac
+<region> pitch_keycenter=b1 lokey=b1 hikey=b1 Sample=Shn07.flac
+<region> pitch_keycenter=c2 lokey=c2 hikey=c#2 Sample=Shn08.flac
+<region> pitch_keycenter=d2 lokey=d2 hikey=d#2 Sample=Shn09.flac
+<region> pitch_keycenter=e2 lokey=e2 hikey=e2 Sample=Shn10.flac
+<region> pitch_keycenter=f2 lokey=f2 hikey=f#2 Sample=Shn11.flac
+<region> pitch_keycenter=g2 lokey=g2 hikey=g#2 Sample=Shn12.flac
+<region> pitch_keycenter=a2 lokey=a2 hikey=a#2 Sample=Shn13.flac
+<region> pitch_keycenter=b2 lokey=b2 hikey=b2 Sample=Shn14.flac
+<region> pitch_keycenter=c3 lokey=c3 hikey=c#3 Sample=Shn15.flac
+<region> pitch_keycenter=d3 lokey=d3 hikey=d#3 Sample=Shn16.flac
+<region> pitch_keycenter=e3 lokey=e3 hikey=e3 Sample=Shn17.flac
+<region> pitch_keycenter=f3 lokey=f3 hikey=f#3 Sample=Shn18.flac
+<region> pitch_keycenter=g3 lokey=g3 hikey=g#3 Sample=Shn19.flac
+<region> pitch_keycenter=a3 lokey=a3 hikey=a#3 Sample=Shn20.flac
+<region> pitch_keycenter=b3 lokey=b3 hikey=b3 Sample=Shn21.flac
+<region> pitch_keycenter=c4 lokey=c4 hikey=c7 Sample=Shn22.flac
