@@ -24,7 +24,7 @@
 <region> sw_last=21 sample=MartinGM2_074__D5_1.wav lokey=73 hikey=75 pitch_keycenter=74 ampeg_hold=0.885 ampeg_decay=11 pitcheg_hold=0.885 
 <region> sw_last=21 sample=MartinGM2_077__F5_1.wav lokey=76 hikey=78 pitch_keycenter=77 ampeg_hold=1.484 ampeg_decay=10 pitcheg_hold=1.484 
 <region> sw_last=21 sample=MartinGM2_080_Ab5_1.wav lokey=79 hikey=81 pitch_keycenter=80 ampeg_hold=1.114 ampeg_decay=9 pitcheg_hold=1.114 
-<region> sw_last=21 sample=MartinGM2_083_B5_1.wav  lokey=82 hikey=88 pitch_keycenter=83 ampeg_hold=0.665 ampeg_decay=8 pitcheg_hold=0.665 
+<region> sw_last=21 sample=MartinGM2_083__B5_1.wav lokey=82 hikey=88 pitch_keycenter=83 ampeg_hold=0.665 ampeg_decay=8 pitcheg_hold=0.665 
 
 
 <master> fil_type=lpf_1p cutoff=22050 cutoff_oncc131=-6000 cutoff_curvecc131=2
@@ -46,4 +46,4 @@
 <region> sw_last=23 sample=MartinGM2_074__D5_1.wav lokey=73 hikey=75 pitch_keycenter=74 ampeg_hold=0.885 ampeg_decay=11 pitcheg_hold=0.885 
 <region> sw_last=23 sample=MartinGM2_077__F5_1.wav lokey=76 hikey=78 pitch_keycenter=77 ampeg_hold=1.484 ampeg_decay=10 pitcheg_hold=1.484 
 <region> sw_last=23 sample=MartinGM2_080_Ab5_1.wav lokey=79 hikey=81 pitch_keycenter=80 ampeg_hold=1.114 ampeg_decay=9 pitcheg_hold=1.114 
-<region> sw_last=23 sample=MartinGM2_083_B5_1.wav  lokey=82 hikey=88 pitch_keycenter=83 ampeg_hold=0.665 ampeg_decay=8 pitcheg_hold=0.665 
+<region> sw_last=23 sample=MartinGM2_083__B5_1.wav lokey=82 hikey=88 pitch_keycenter=83 ampeg_hold=0.665 ampeg_decay=8 pitcheg_hold=0.665 
