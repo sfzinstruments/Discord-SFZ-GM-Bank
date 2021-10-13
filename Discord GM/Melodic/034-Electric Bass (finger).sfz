@@ -1,372 +1,58 @@
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c2_vl1.wav
-lokey=36
-hikey=39
-hivel=25
-pitch_keycenter=36
-amp_velcurve_25=1
+// From Killer Bass by Karyrofer (http://karoryfer.com)
+// License: CC0
 
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c2_vl2.wav
-lokey=36
-hikey=39
-lovel=26
-hivel=50
-pitch_keycenter=36
-amp_velcurve_50=1
+<region> sample=034-Electric Bass (finger)/killer_bass_c2_vl1.wav  lokey=23 hikey=27          hivel=25  pitch_keycenter=24 amp_velcurve_25=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_c2_vl2.wav  lokey=23 hikey=27 lovel=26 hivel=50  pitch_keycenter=24 amp_velcurve_50=1
+<region> sample=034-Electric Bass (finger)/killer_bass_c2_vl3.wav  lokey=23 hikey=27 lovel=51 hivel=75  pitch_keycenter=24 amp_velcurve_75=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_c2_vl4.wav  lokey=23 hikey=27 lovel=76 hivel=100 pitch_keycenter=24 amp_velcurve_100=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_c2_vl5.wav  lokey=23 hikey=27 lovel=101          pitch_keycenter=24 
 
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c2_vl3.wav
-lokey=36
-hikey=39
-lovel=51
-hivel=75
-pitch_keycenter=36
-amp_velcurve_75=1
+<region> sample=034-Electric Bass (finger)/killer_bass_gb2_vl1.wav lokey=28 hikey=33          hivel=25  pitch_keycenter=30 amp_velcurve_25=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_gb2_vl2.wav lokey=28 hikey=33 lovel=26 hivel=50  pitch_keycenter=30 amp_velcurve_50=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_gb2_vl3.wav lokey=28 hikey=33 lovel=51 hivel=75  pitch_keycenter=30 amp_velcurve_75=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_gb2_vl4.wav lokey=28 hikey=33 lovel=76 hivel=100 pitch_keycenter=30 amp_velcurve_100=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_gb2_vl5.wav lokey=28 hikey=33 lovel=101          pitch_keycenter=30 
 
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c2_vl4.wav
-lokey=36
-hikey=39
-lovel=76
-hivel=100
-pitch_keycenter=36
-amp_velcurve_100=1
+<region> sample=034-Electric Bass (finger)/killer_bass_c3_vl1.wav  lokey=34 hikey=38          hivel=25  pitch_keycenter=36 amp_velcurve_25=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_c3_vl2.wav  lokey=34 hikey=38 lovel=26 hivel=50  pitch_keycenter=36 amp_velcurve_50=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_c3_vl3.wav  lokey=34 hikey=38 lovel=51 hivel=75  pitch_keycenter=36 amp_velcurve_75=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_c3_vl4.wav  lokey=34 hikey=38 lovel=76 hivel=100 pitch_keycenter=36 amp_velcurve_100=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_c3_vl5.wav  lokey=34 hikey=38 lovel=101          pitch_keycenter=36 
 
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c2_vl5.wav
-lokey=36
-hikey=39
-lovel=101
-pitch_keycenter=36
+<region> sample=034-Electric Bass (finger)/killer_bass_gb3_vl1.wav lokey=39 hikey=44          hivel=25  pitch_keycenter=42 amp_velcurve_25=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_gb3_vl2.wav lokey=39 hikey=44 lovel=26 hivel=50  pitch_keycenter=42 amp_velcurve_50=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_gb3_vl3.wav lokey=39 hikey=44 lovel=51 hivel=75  pitch_keycenter=42 amp_velcurve_75=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_gb3_vl4.wav lokey=39 hikey=44 lovel=76 hivel=100 pitch_keycenter=42 amp_velcurve_100=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_gb3_vl5.wav lokey=39 hikey=44 lovel=101          pitch_keycenter=42 
 
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb2_vl1.wav
-lokey=40
-hikey=45
-hivel=25
-pitch_keycenter=42
-amp_velcurve_25=1
+<region> sample=034-Electric Bass (finger)/killer_bass_c4_vl1.wav  lokey=45 hikey=50          hivel=25  pitch_keycenter=48 amp_velcurve_25=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_c4_vl2.wav  lokey=45 hikey=50 lovel=26 hivel=50  pitch_keycenter=48 amp_velcurve_50=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_c4_vl3.wav  lokey=45 hikey=50 lovel=51 hivel=75  pitch_keycenter=48 amp_velcurve_75=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_c4_vl4.wav  lokey=45 hikey=50 lovel=76 hivel=100 pitch_keycenter=48 amp_velcurve_100=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_c4_vl5.wav  lokey=45 hikey=50 lovel=101          pitch_keycenter=48
 
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb2_vl2.wav
-lokey=40
-hikey=45
-lovel=26
-hivel=50
-pitch_keycenter=42
-amp_velcurve_50=1
+<region> sample=034-Electric Bass (finger)/killer_bass_gb4_vl1.wav lokey=51 hikey=56          hivel=25  pitch_keycenter=54 amp_velcurve_25=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_gb4_vl2.wav lokey=51 hikey=56 lovel=25 hivel=50  pitch_keycenter=54 amp_velcurve_50=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_gb4_vl3.wav lokey=51 hikey=56 lovel=51 hivel=75  pitch_keycenter=54 amp_velcurve_75=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_gb4_vl4.wav lokey=51 hikey=56 lovel=76 hivel=100 pitch_keycenter=54 amp_velcurve_100=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_gb4_vl5.wav lokey=51 hikey=56 lovel=101          pitch_keycenter=54 
 
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb2_vl3.wav
-lokey=40
-hikey=45
-lovel=51
-hivel=75
-pitch_keycenter=42
-amp_velcurve_75=1
+<region> sample=034-Electric Bass (finger)/killer_bass_c5_vl1.wav  lokey=57 hikey=62          hivel=25  pitch_keycenter=60 amp_velcurve_25=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_c5_vl2.wav  lokey=57 hikey=62 lovel=26 hivel=50  pitch_keycenter=60 amp_velcurve_50=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_c5_vl3.wav  lokey=57 hikey=62 lovel=51 hivel=75  pitch_keycenter=60 amp_velcurve_75=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_c5_vl4.wav  lokey=57 hikey=62 lovel=76 hivel=100 pitch_keycenter=60 amp_velcurve_100=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_c5_vl5.wav  lokey=57 hikey=62 lovel=101          pitch_keycenter=60 
 
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb2_vl4.wav
-lokey=40
-hikey=45
-lovel=76
-hivel=100
-pitch_keycenter=42
-amp_velcurve_100=1
+<region> sample=034-Electric Bass (finger)/killer_bass_gb5_vl1.wav lokey=63 hikey=67          hivel=25  pitch_keycenter=66 amp_velcurve_25=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_gb5_vl2.wav lokey=63 hikey=67 lovel=26 hivel=50  pitch_keycenter=66 amp_velcurve_50=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_gb5_vl3.wav lokey=63 hikey=67 lovel=51 hivel=75  pitch_keycenter=66 amp_velcurve_75=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_gb5_vl4.wav lokey=63 hikey=67 lovel=76 hivel=100 pitch_keycenter=66 amp_velcurve_100=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_gb5_vl5.wav lokey=63 hikey=67 lovel=101          pitch_keycenter=66 
 
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb2_vl5.wav
-lokey=40
-hikey=45
-lovel=101
-pitch_keycenter=42
+<region> sample=034-Electric Bass (finger)/killer_bass_a5_vl1.wav  lokey=68 hikey=71          hivel=25  pitch_keycenter=69 amp_velcurve_25=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_a5_vl2.wav  lokey=68 hikey=71 lovel=26 hivel=50  pitch_keycenter=69 amp_velcurve_50=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_a5_vl3.wav  lokey=68 hikey=71 lovel=51 hivel=75  pitch_keycenter=69 amp_velcurve_75=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_a5_vl4.wav  lokey=68 hikey=71 lovel=76 hivel=100 pitch_keycenter=69 amp_velcurve_100=1 
+<region> sample=034-Electric Bass (finger)/killer_bass_a5_vl5.wav  lokey=68 hikey=71 lovel=101          pitch_keycenter=69
 
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c3_vl1.wav
-lokey=46
-hikey=50
-hivel=25
-pitch_keycenter=48
-amp_velcurve_25=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c3_vl2.wav
-lokey=46
-hikey=50
-lovel=26
-hivel=50
-pitch_keycenter=48
-amp_velcurve_50=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c3_vl3.wav
-lokey=46
-hikey=50
-lovel=51
-hivel=75
-pitch_keycenter=48
-amp_velcurve_75=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c3_vl4.wav
-lokey=46
-hikey=50
-lovel=76
-hivel=100
-pitch_keycenter=48
-amp_velcurve_100=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c3_vl5.wav
-lokey=46
-hikey=50
-lovel=101
-pitch_keycenter=48
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb3_vl1.wav
-lokey=51
-hikey=56
-hivel=25
-pitch_keycenter=54
-amp_velcurve_25=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb3_vl2.wav
-lokey=51
-hikey=56
-lovel=26
-hivel=50
-pitch_keycenter=54
-amp_velcurve_50=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb3_vl3.wav
-lokey=51
-hikey=56
-lovel=51
-hivel=75
-pitch_keycenter=54
-amp_velcurve_75=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb3_vl4.wav
-lokey=51
-hikey=56
-lovel=76
-hivel=100
-pitch_keycenter=54
-amp_velcurve_100=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb3_vl5.wav
-lokey=51
-hikey=56
-lovel=101
-pitch_keycenter=54
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c4_vl1.wav
-lokey=57
-hikey=62
-hivel=25
-amp_velcurve_25=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c4_vl2.wav
-lokey=57
-hikey=62
-lovel=26
-hivel=50
-amp_velcurve_50=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c4_vl3.wav
-lokey=57
-hikey=62
-lovel=51
-hivel=75
-amp_velcurve_75=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c4_vl4.wav
-lokey=57
-hikey=62
-lovel=76
-hivel=100
-amp_velcurve_100=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c4_vl5.wav
-lokey=57
-hikey=62
-lovel=101
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb4_vl1.wav
-lokey=63
-hikey=68
-hivel=25
-pitch_keycenter=66
-amp_velcurve_25=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb4_vl2.wav
-lokey=63
-hikey=68
-lovel=25
-hivel=50
-pitch_keycenter=66
-amp_velcurve_50=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb4_vl3.wav
-lokey=63
-hikey=68
-lovel=51
-hivel=75
-pitch_keycenter=66
-amp_velcurve_75=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb4_vl4.wav
-lokey=63
-hikey=68
-lovel=76
-hivel=100
-pitch_keycenter=66
-amp_velcurve_100=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb4_vl5.wav
-lokey=63
-hikey=68
-lovel=101
-pitch_keycenter=66
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c5_vl1.wav
-lokey=69
-hikey=74
-hivel=25
-pitch_keycenter=72
-amp_velcurve_25=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c5_vl2.wav
-lokey=69
-hikey=74
-lovel=26
-hivel=50
-pitch_keycenter=72
-amp_velcurve_50=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c5_vl3.wav
-lokey=69
-hikey=74
-lovel=51
-hivel=75
-pitch_keycenter=72
-amp_velcurve_75=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c5_vl4.wav
-lokey=69
-hikey=74
-lovel=76
-hivel=100
-pitch_keycenter=72
-amp_velcurve_100=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_c5_vl5.wav
-lokey=69
-hikey=74
-lovel=101
-pitch_keycenter=72
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb5_vl1.wav
-lokey=75
-hikey=79
-hivel=25
-pitch_keycenter=78
-amp_velcurve_25=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb5_vl2.wav
-lokey=75
-hikey=79
-lovel=26
-hivel=50
-pitch_keycenter=78
-amp_velcurve_50=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb5_vl3.wav
-lokey=75
-hikey=79
-lovel=51
-hivel=75
-pitch_keycenter=78
-amp_velcurve_75=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb5_vl4.wav
-lokey=75
-hikey=79
-lovel=76
-hivel=100
-pitch_keycenter=78
-amp_velcurve_100=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_gb5_vl5.wav
-lokey=75
-hikey=79
-lovel=101
-pitch_keycenter=78
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_a5_vl1.wav
-lokey=80
-hikey=81
-hivel=25
-pitch_keycenter=81
-amp_velcurve_25=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_a5_vl2.wav
-lokey=80
-hikey=81
-lovel=26
-hivel=50
-pitch_keycenter=81
-amp_velcurve_50=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_a5_vl3.wav
-lokey=80
-hikey=81
-lovel=51
-hivel=75
-pitch_keycenter=81
-amp_velcurve_75=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_a5_vl4.wav
-lokey=80
-hikey=81
-lovel=76
-hivel=100
-pitch_keycenter=81
-amp_velcurve_100=1
-
-<region>
-sample=034-Electric Bass (finger)/killer_bass_a5_vl5.wav
-lokey=80
-hikey=81
-lovel=101
-pitch_keycenter=81
+// ----------------
