@@ -7,10 +7,12 @@
 # where
 #   -f flac = build flac-format (including converting .wav samples) [NYI]
 #   -t = build test format (using sequential program numbers rather than GM bank numbers)
-#   -d = build melodic only
-#   -t = build drums only
+#   -m = build melodic only
+#   -d = build drums only
 #   -c = build combined only
 #   Default is to build all three.
+#
+# RUN THIS FROM 'Discord GM' DIRECTORY!
 
 # Script license: Creative Commons CC0 - Jeff Learman
 
@@ -161,9 +163,19 @@ buildsfz()
         SFZFILE=$TYPE/$SFZ.sfz
         SAMPFLDR=$TYPE/$SFZ
 
-        if [[ "$SFNAME" = "none" ]] ; then
+        if [[ "$SFNAME" = "OMIT" ]] ; then
+            echo "NOTE: $SFZ explicitly omitted in $PLANFILE" >&2
             LASTTYPE=$TYPE
             continue
+        fi
+
+        if [[ "$SFNAME" = "none" ]] ; then
+            if [[ ! -d $SAMPFLDR ]] ; then
+                LASTTYPE=$TYPE
+                continue
+            fi
+            echo "NOTE: PLEASE edit $PLANFILE and replace '$SFNAME' with a name for $SFZ, showing the original source." >&2
+            SFNAME=""
         fi
 
         if $TEST ; then
