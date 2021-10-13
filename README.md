@@ -8,6 +8,9 @@ At this moment, there is no dedicated free GM bank in SFZ format for use to quic
 So this project try to create one SFZ GM bank with good quality by using available free/opensource samples.
 Then the finished product will be shared free for everybody who like use SFZ and GM format.
 
+## Want to help?
+Please see the [Wiki](https://github.com/sfzinstruments/Discord-SFZ-GM-Bank/wiki) and [Conventions](https://github.com/sfzinstruments/Discord-SFZ-GM-Bank/wiki/Conventions).
+
 ## Target engines
 - Plogue sforzando
 - SFZTools sfizz
