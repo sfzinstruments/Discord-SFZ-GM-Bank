@@ -24,7 +24,7 @@ label_cc10=Pan (10) set_hdcc10=0.5
 global_label=Melodic
 //locc0=121 hicc0=127
 //locc32=0 hicc32=0
-locc0=0 hicc0=0
+//locc0=0 hicc0=0
 
 ampeg_attack_oncc73=5
 ampeg_attack_curvecc73=1
@@ -52,3 +52,30 @@ pan_oncc10=200
 <master> loprog=2 hiprog=2 master_volume=4.5 master_label=1:3(3) - Electric Grand Piano - Greg Sullivan Yamaha CP80 #include "Melodic/003-Electric Grand Piano.sfz"
 <master> loprog=3 hiprog=3 master_volume=0 master_label=1:5(4) - Electric Piano 1 - jRhodes #include "Melodic/005-Electric Piano 1.sfz"
 <master> loprog=4 hiprog=4 master_volume=6 master_label=1:26(5) - Acoustic Guitar (steel) - jMartin HD28 #include "Melodic/026-Acoustic Guitar (steel).sfz"
+<master> loprog=5 hiprog=5 master_volume=0 master_label=1:34(6) - Electric Bass (finger) - Karoryfer Killer Bass #include "Melodic/034-Electric Bass (finger).sfz"
+<master> loprog=6 hiprog=6 master_volume=0 master_label=1:45(7) - Tremolo Strings - Versilian Studios #include "Melodic/045-Tremolo Strings.sfz"
+<master> loprog=7 hiprog=7 master_volume=0 master_label=1:46(8) - Pizzicato Strings - Versilian Studios #include "Melodic/046-Pizzicato Strings.sfz"
+<master> loprog=8 hiprog=8 master_volume=0 master_label=1:105(9) - Sitar -  #include "Melodic/105-Sitar.sfz"
+<master> loprog=9 hiprog=9 master_volume=0 master_label=1:110(10) - Bagpipe -  #include "Melodic/110-Bagpipe.sfz"
+<master> loprog=10 hiprog=10 master_volume=0 master_label=1:112(11) - Shanai -  #include "Melodic/112-Shanai.sfz"
+// Drums controls
+
+<global>
+//global_label=Bank 129
+global_label=Drums
+//locc0=0 hicc0=120
+//locc0=120 hicc0=120
+
+amp_veltrack=0
+amp_veltrack_oncc118=100
+amplitude_oncc7=100
+pan=-100
+pan_oncc10=200
+
+<control>
+default_path=Drums/
+
+
+// Drums instruments
+
+<master> loprog=11 hiprog=11 master_volume=0 master_label=1:1(12) - Standard Kit - Kinwie #include "Drums/001-Standard Kit.sfz"
