@@ -34,7 +34,7 @@ Here are some of the sources that are used or considered for use:
 - Each instrument is licensed by its creator
 - The creator's license terms can be found in the .sfz file for the instrument.
 - Only CC0, CC-BY, and equivalent licences are allowed.  (I will expand this list to specify equivalent licenses.)
-- More restrictive licenses are allowed.  For example, we plan for this to be usable in products, so CC-NC is not permitted.
+- More restrictive licenses are not allowed.  For example, we plan for this to be usable in products, so CC-NC is not permitted.
 - Eventually a single license list will be provided as a text file, which can be used by anyone repackaging a GM sfz.
 
 ## Contributors
