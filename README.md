@@ -1,7 +1,7 @@
 # The Discord SFZ General MIDI Bank
 **Work in progress**
 A free opensource General MIDI soundbank in native SFZ format.
-All details and documentation can be found here :  [Wiki].
+All details and documentation can be found here :  [Wiki](https://github.com/sfzinstruments/Discord-SFZ-GM-Bank/wiki).
 
 ## Purpose
 At this moment, there is no dedicated free GM bank in SFZ format to quickly play MIDi files that are available on the internet.
