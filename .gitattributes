@@ -1,2 +1,5 @@
+# treat samples as binary
 *.wav binary
 *.flac binary
+# Auto detect text files and perform LF normalization
+* text=auto
