@@ -113,7 +113,7 @@ Melodic | 101 |  0   | 101-FX 5 (brightness)        | FX 5 (brightness)        |
 Melodic | 102 |  0   | 102-FX 6 (goblins)           | FX 6 (goblins)           | none
 Melodic | 103 |  0   | 103-FX 7 (echoes)            | FX 7 (echoes)            | none
 Melodic | 104 |  0   | 104-FX 8 (sci-fi)            | FX 8 (sci-fi)            | none
-Melodic | 105 |  0   | 105-Sitar                    | Sitar                    | Dr. Narayan Bhagawan Raikar 
+Melodic | 105 |  0   | 105-Sitar                    | Sitar                    | Dr. Narayan Bhagawan Raikar Sitar
 Melodic | 106 |  0   | 106-Banjo                    | Banjo                    | none
 Melodic | 107 |  0   | 107-Shamisen                 | Shamisen                 | none
 Melodic | 108 |  0   | 108-Koto                     | Koto                     | none
@@ -122,7 +122,7 @@ Melodic | 109 |  0   | 109-Kalimba                  | Kalimba                  |
 # we have bagpipe samples but no map yet
 Melodic | 110 |  0   | 110-Bagpipe                  | Bagpipe                  | OMIT
 Melodic | 111 |  0   | 111-Fiddle                   | Fiddle                   | none
-Melodic | 112 |  0   | 112-Shanai                   | Shanai                   | Dr. Narayan Bhagawan Raikar 
+Melodic | 112 |  0   | 112-Shanai                   | Shanai                   | Dr. Narayan Bhagawan Raikar Shanai
 Melodic | 113 |  0   | 113-Tinkle Bell              | Tinkle Bell              | none
 Melodic | 114 |  0   | 114-Agogo                    | Agogo                    | none
 Melodic | 115 |  0   | 115-Steel Drums              | Steel Drums              | none
