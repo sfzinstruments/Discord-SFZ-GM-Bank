@@ -5,6 +5,8 @@
 // Source: http://github.com/sfzinstruments/jlearman.jRhodes3c
 // Mapped and relooped for GM by jlearman
 
+// <master> is commented out because this file is included.  To use it standalone, uncomment it.
+//<master>
 ampeg_sustain=0
 
 <group> ampeg_release=0.6 

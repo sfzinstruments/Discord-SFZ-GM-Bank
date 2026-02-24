@@ -1,2 +1,56 @@
-//dummy
-<region> sample=*sine
+// GM Synth Bass 2
+// ASIKWUSpulse synthshop
+// Author: @asikwus (https://github.com/asikwus)
+// Description: The external samples are custom designs with OpenMPT, the synth-plugin Vital and/or recordings
+// License: CC0
+
+// <master> is commented out because this file is included.  To use it standalone, uncomment it.
+//<master>
+// parameters that affect the whole instrument go here.
+
+  master_volume=-3.5
+  fil_type=lpf_2p       	// One of the many filter types available
+  cutoff=250          	// freq in hertz
+  resonance=4        		// value in db
+  ampeg_attack=0
+  ampeg_decay=2
+  ampeg_sustain=80
+  ampeg_release=.1
+  fileg_attack=0
+  fileg_decay=1.12
+  fileg_sustain=0
+  fileg_release=1
+  fileg_depth=0
+
+// *****************************************************************************
+// Your mapping starts here
+// *****************************************************************************
+
+<group> // 1
+
+// Parameters that affect multiple regions go here
+
+  fileg_vel2depth=7200
+
+  trigger=attack    		// or release or first or legato
+  loop_mode=loop_continuous // or loop_continuous or one_shot or loop_sustain
+
+<region> sample=040-Synth Bass 2/supersaw_48.wav lokey=0 hikey=b2 pitch_keycenter=48
+<region> sample=040-Synth Bass 2/supersaw_60.wav lokey=c3 hikey=b3 pitch_keycenter=60
+<region> sample=040-Synth Bass 2/supersaw_72.wav lokey=c4 hikey=b4 pitch_keycenter=72
+<region> sample=040-Synth Bass 2/supersaw_84.wav lokey=c5 hikey=b5 pitch_keycenter=84
+<region> sample=040-Synth Bass 2/supersaw_96.wav lokey=c6 hikey=b6 pitch_keycenter=96
+<region> sample=040-Synth Bass 2/supersaw_108.wav lokey=c7 hikey=b7 pitch_keycenter=108
+<region> sample=040-Synth Bass 2/supersaw_120.wav lokey=c8 hikey=c9 pitch_keycenter=120
+
+<group> // 2
+
+// Parameters that affect multiple regions go here
+
+  cutoff=180
+
+  offset=220
+  trigger=attack    		// or release or first or legato
+  loop_mode=loop_continuous // or loop_continuous or one_shot or loop_sustain
+
+<region> sample=*saw lokey=0 hikey=c9 volume=-8

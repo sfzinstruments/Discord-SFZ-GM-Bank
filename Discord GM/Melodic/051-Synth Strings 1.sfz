@@ -1,2 +1,29 @@
-//dummy
-<region> sample=*sine
+// GM Synth Strings 1
+// ASIKWUSpulse synthshop
+// Author: @asikwus (https://github.com/asikwus)
+// Description: The samples are custom designs with OpenMPT, the synth-plugin Vital and/or recordings
+// License: CC0
+
+<group>
+  fil_type=lpf_2p
+  cutoff=250
+  resonance=2
+  
+  fileg_decay=32
+  fileg_sustain=50
+  fileg_release=8
+  fileg_vel2depth=4800
+
+  trigger=attack
+  loop_mode=loop_continuous
+  ampeg_attack=.05
+  ampeg_decay=5
+  ampeg_sustain=75
+  ampeg_release=2
+<region> sample=051-Synth Strings 1/supersaw_48.wav lokey=0 hikey=b2 pitch_keycenter=48
+<region> sample=051-Synth Strings 1/supersaw_60.wav lokey=c3 hikey=b3 pitch_keycenter=60
+<region> sample=051-Synth Strings 1/supersaw_72.wav lokey=c4 hikey=b4 pitch_keycenter=72
+<region> sample=051-Synth Strings 1/supersaw_84.wav lokey=c5 hikey=b5 pitch_keycenter=84
+<region> sample=051-Synth Strings 1/supersaw_96.wav lokey=c6 hikey=b6 pitch_keycenter=96
+<region> sample=051-Synth Strings 1/supersaw_108.wav lokey=c7 hikey=b7 pitch_keycenter=108
+<region> sample=051-Synth Strings 1/supersaw_120.wav lokey=c8 hikey=c9 pitch_keycenter=120

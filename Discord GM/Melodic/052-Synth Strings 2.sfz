@@ -1,2 +1,57 @@
-//dummy
-<region> sample=*sine
+// GM Synth Strings 2
+// ASIKWUSpulse synthshop
+// Author: @asikwus (https://github.com/asikwus)
+// Description: The samples are custom designs with OpenMPT, the synth-plugin Vital and/or recordings
+// License: Creative Commons CC-BY, I. Wüst (@asikwus)
+
+// <master> is commented out because this file is included.  To use it standalone, uncomment it.
+//<master>
+master_volume=-3.5
+fileg_decay=32
+fileg_sustain=25
+fileg_release=14
+
+
+<group>
+pan=-50
+pitcheg_decay=.5
+pitcheg_sustain=0
+pitcheg_depth=-256
+cutoff=250
+fil_type=lpf_2p
+resonance=12
+
+fileg_vel2depth=5800
+trigger=attack
+loop_mode=loop_continuous
+ampeg_attack=.15
+ampeg_decay=5
+ampeg_sustain=75
+ampeg_release=3.5
+<region> sample=052-Synth Strings 2/supersaw_48.wav lokey=0 hikey=b2 pitch_keycenter=48
+<region> sample=052-Synth Strings 2/supersaw_60.wav lokey=c3 hikey=b3 pitch_keycenter=60
+<region> sample=052-Synth Strings 2/supersaw_72.wav lokey=c4 hikey=b4 pitch_keycenter=72
+<region> sample=052-Synth Strings 2/supersaw_84.wav lokey=c5 hikey=b5 pitch_keycenter=84
+<region> sample=052-Synth Strings 2/supersaw_96.wav lokey=c6 hikey=b6 pitch_keycenter=96
+<region> sample=052-Synth Strings 2/supersaw_108.wav lokey=c7 hikey=b7 pitch_keycenter=108
+<region> sample=052-Synth Strings 2/supersaw_120.wav lokey=c8 hikey=c9 pitch_keycenter=120
+
+<group>
+pan=50
+cutoff=250
+fil_type=lpf_2p
+resonance=2
+fileg_vel2depth=4800
+trigger=attack
+loop_mode=loop_continuous
+ampeg_attack=.1
+ampeg_decay=5
+ampeg_sustain=75
+ampeg_release=3.5
+<region> sample=052-Synth Strings 2/supersaw_48.wav lokey=0 hikey=b2 pitch_keycenter=48
+<region> sample=052-Synth Strings 2/supersaw_60.wav lokey=c3 hikey=b3 pitch_keycenter=60
+<region> sample=052-Synth Strings 2/supersaw_72.wav lokey=c4 hikey=b4 pitch_keycenter=72
+<region> sample=052-Synth Strings 2/supersaw_84.wav lokey=c5 hikey=b5 pitch_keycenter=84
+<region> sample=052-Synth Strings 2/supersaw_96.wav lokey=c6 hikey=b6 pitch_keycenter=96
+<region> sample=052-Synth Strings 2/supersaw_108.wav lokey=c7 hikey=b7 pitch_keycenter=108
+<region> sample=052-Synth Strings 2/supersaw_120.wav lokey=c8 hikey=c9 pitch_keycenter=120

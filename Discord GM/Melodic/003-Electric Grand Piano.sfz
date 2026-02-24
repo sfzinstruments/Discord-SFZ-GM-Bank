@@ -8,6 +8,7 @@
 // --------------------------------------
 // SFZ format v2 with ARIA extensions
 
+// <master> is commented out because this file is included.  To use it standalone, uncomment it.
 //<master>
 fil_type=lpf_2p cutoff=20000 cutoff_oncc131=-8500 cutoff_curvecc131=2
 pan_keycenter=60

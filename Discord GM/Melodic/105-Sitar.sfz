@@ -7,6 +7,8 @@
 
 // License: CC0, Dr. Narayan Bhagawan Raikar 
 
+// <master> is commented out because this file is included.  To use it standalone, uncomment it.
+//<master>
 group=1
 off_by=1
 

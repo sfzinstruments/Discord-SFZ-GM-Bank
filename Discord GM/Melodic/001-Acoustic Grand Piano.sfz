@@ -6,6 +6,7 @@
 // Source: https://github.com/sfzinstruments/SalamanderGrandPiano
 // mapped and looped by jlearman
 
+// <master> is commented out because this file is included.  To use it standalone, uncomment it.
 //<master>
 fil_type=lpf_1p cutoff=20000 cutoff_oncc131=-9500 cutoff_curvecc131=2
 

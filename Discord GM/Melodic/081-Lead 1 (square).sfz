@@ -1,2 +1,23 @@
-//dummy
-<region> sample=*sine
+// GM Square Lead
+// ASIKWUSpulse synthshop
+// Author: @asikwus (https://github.com/asikwus)
+// Description: The external samples are custom designs with OpenMPT, the synth-plugin Vital and/or recordings
+// License: CC0
+
+//<master>
+  master_volume=-8
+  cutoff=441
+  fil_veltrack=4800
+  ampeg_decay=.5
+  ampeg_sustain=80
+  
+<group> // 1
+  tune=-6
+  pitcheg_decay=.15
+  pitcheg_sustain=0
+  pitcheg_depth=240
+<region> sample=*square lokey=0 hikey=c9
+
+<group> // 2
+  tune=6
+<region> sample=*square lokey=0 hikey=c9

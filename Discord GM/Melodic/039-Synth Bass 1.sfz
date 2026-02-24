@@ -1,2 +1,30 @@
-//dummy
-<region> sample=*sine
+// GM Synth Bass 1
+// ASIKWUSpulse synthshop
+// Author: @asikwus (https://github.com/asikwus)
+// Description: The external samples are custom designs with OpenMPT, the synth-plugin Vital and/or recordings
+// License: CC0
+
+<group> // 1
+
+// Parameters that affect multiple regions go here
+  
+  volume=-3.5
+  
+  fil_type=lpf_2p       	// One of the many filter types available
+  cutoff=250          	// freq in hertz
+  resonance=4        		// value in db
+  fileg_attack=0
+  fileg_decay=1.12
+  fileg_sustain=0
+  fileg_release=1
+  fileg_depth=0
+  fileg_vel2depth=7200
+
+  trigger=attack    		// or release or first or legato
+  loop_mode=loop_continuous // or loop_continuous or one_shot or loop_sustain
+  ampeg_attack=0
+  ampeg_decay=2
+  ampeg_sustain=80
+  ampeg_release=.1
+
+<region> sample=*saw lokey=0 hikey=c9

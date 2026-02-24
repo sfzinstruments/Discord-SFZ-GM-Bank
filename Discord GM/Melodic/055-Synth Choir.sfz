@@ -1,2 +1,26 @@
-//dummy
-<region> sample=*sine
+// GM Synth Voice
+// ASIKWUSpulse synthshop
+// Author: @asikwus (https://github.com/asikwus)
+// Description: The external samples are custom designs with OpenMPT, the synth-plugin Vital and/or recordings
+// License: CC0
+
+// <master> is commented out because this file is included.  To use it standalone, uncomment it.
+//<master>
+
+  master_volume=2
+
+<group> // 1
+
+// Parameters that affect multiple regions go here
+
+  trigger=attack    		// or release or first or legato
+  loop_mode=loop_continuous // or loop_continuous or one_shot or loop_sustain
+  ampeg_attack=.05			// value in sec
+  ampeg_decay=5				// value in sec
+  ampeg_sustain=75			// value in percent
+  ampeg_release=1.2			// value in sec
+
+<region> sample=055-Synth Choir/synthvox_64.wav lokey=0 hikey=g#4 pitch_keycenter=64
+<region> sample=055-Synth Choir/synthvox_72.wav lokey=a4 hikey=f7 pitch_keycenter=72 tune=8
+<region> sample=055-Synth Choir/spacevox_108.wav lokey=f#7 hikey=f#8 pitch_keycenter=108
+<region> sample=055-Synth Choir/supersaw_120.wav lokey=g8 hikey=c9 pitch_keycenter=120

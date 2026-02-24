@@ -1,2 +1,42 @@
-//dummy
-<region> sample=*sine
+// GM Bowed Glass Pad
+// ASIKWUSpulse synthshop
+// Author: @asikwus (https://github.com/asikwus)
+// Description: The external samples are custom designs with OpenMPT, the synth-plugin Vital and/or recordings
+// License: CC0
+
+// <master> is commented out because this file is included.  To use it standalone, uncomment it.
+//<master>
+  master_volume=-2
+  fil_keytrack=120
+  fil_type=lpf_2p
+  cutoff=261.626
+  resonance=0
+  fileg_attack=.3
+  fileg_decay=8
+  fileg_sustain=25
+  fileg_release=4
+  fileg_depth=2400
+  ampeg_attack=.2
+  ampeg_decay=8
+  ampeg_sustain=80
+  ampeg_release=1.5
+<group>
+  group_tune=-5
+<region> sample=093-Pad 5 (bowed)/oddwave_60.wav lokey=0 hikey=c4 pitch_keycenter=60
+<region> sample=093-Pad 5 (bowed)/oddwave_65-25c.wav lokey=c#4 hikey=f4 pitch_keycenter=65 tune=25
+<region> sample=093-Pad 5 (bowed)/oddwave_72.wav lokey=f#4 hikey=c5 pitch_keycenter=72
+<region> sample=093-Pad 5 (bowed)/oddwave_77-25c.wav lokey=c#5 hikey=f5 pitch_keycenter=77 tune=25
+<region> sample=093-Pad 5 (bowed)/oddwave_84.wav lokey=f#5 hikey=c6 pitch_keycenter=84
+<region> sample=093-Pad 5 (bowed)/oddwave_89-25c.wav lokey=c#6 hikey=f6 pitch_keycenter=89 tune=25
+<region> sample=093-Pad 5 (bowed)/oddwave_96.wav lokey=f#6 hikey=c7 pitch_keycenter=96
+<region> sample=*sine lokey=c#7 hikey=c9 pitch_keycenter=108 volume=-3.6
+<group>
+  group_tune=5
+<region> sample=093-Pad 5 (bowed)/oddwave_60.wav lokey=0 hikey=c4 pitch_keycenter=60
+<region> sample=093-Pad 5 (bowed)/oddwave_65-25c.wav lokey=c#4 hikey=f4 pitch_keycenter=65 tune=25
+<region> sample=093-Pad 5 (bowed)/oddwave_72.wav lokey=f#4 hikey=c5 pitch_keycenter=72
+<region> sample=093-Pad 5 (bowed)/oddwave_77-25c.wav lokey=c#5 hikey=f5 pitch_keycenter=77 tune=25
+<region> sample=093-Pad 5 (bowed)/oddwave_84.wav lokey=f#5 hikey=c6 pitch_keycenter=84
+<region> sample=093-Pad 5 (bowed)/oddwave_89-25c.wav lokey=c#6 hikey=f6 pitch_keycenter=89 tune=25
+<region> sample=093-Pad 5 (bowed)/oddwave_96.wav lokey=f#6 hikey=c7 pitch_keycenter=96
+<region> sample=*sine lokey=c#7 hikey=c9 pitch_keycenter=108 volume=-3.6

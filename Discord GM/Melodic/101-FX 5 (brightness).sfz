@@ -1,2 +1,60 @@
-//dummy
-<region> sample=*sine
+// GM Brightness
+// ASIKWUSpulse synthshop
+// Author: @asikwus (https://github.com/asikwus)
+// Description: The external samples are custom designs with OpenMPT, the synth-plugin Vital and/or recordings
+// License: CC0
+
+<group> // 1
+
+// Parameters that affect multiple regions go here
+
+  group_volume=-4.2
+
+  pan=-15
+  
+  fil_type=lpf_1p       	// One of the many filter types available
+  cutoff=24000          	// freq in hertz
+  resonance=0        		// value in db
+
+  trigger=attack    		// or release or first or legato
+  loop_mode=loop_continuous // or loop_continuous or one_shot or loop_sustain
+  ampeg_attack=0
+  ampeg_decay=6
+  ampeg_sustain=0
+  ampeg_release=2
+  
+<region> sample=101-FX 5 (brightness)/supersaw_48.wav lokey=0 hikey=b1 pitch_keycenter=36
+<region> sample=101-FX 5 (brightness)/supersaw_60.wav lokey=c2 hikey=b2 pitch_keycenter=48
+<region> sample=101-FX 5 (brightness)/supersaw_72.wav lokey=c3 hikey=b3 pitch_keycenter=60
+<region> sample=101-FX 5 (brightness)/supersaw_84.wav lokey=c4 hikey=b4 pitch_keycenter=72
+<region> sample=101-FX 5 (brightness)/supersaw_96.wav lokey=c5 hikey=b5 pitch_keycenter=84
+<region> sample=101-FX 5 (brightness)/supersaw_108.wav lokey=c6 hikey=b6 pitch_keycenter=96
+<region> sample=101-FX 5 (brightness)/supersaw_120.wav lokey=c7 hikey=c8 pitch_keycenter=108
+
+<group> // 2
+
+// Parameters that affect multiple regions go here
+
+  group_volume=2.1
+
+  pan=15
+  
+  fil_type=lpf_2p       	// One of the many filter types available
+  cutoff=24000         		// freq in hertz
+  resonance=0        		// value in db
+
+  trigger=attack    		// or release or first or legato
+  loop_mode=loop_continuous // or loop_continuous or one_shot or loop_sustain
+  ampeg_attack=0			// value in sec
+  ampeg_decay=12			// value in sec
+  ampeg_sustain=0			// value in percent
+  ampeg_release=3			// value in sec
+
+<region> sample=092-Pad 4 (choir)/spacevox_48.wav lokey=0 hikey=f3 pitch_keycenter=48
+<region> sample=092-Pad 4 (choir)/spacevox_60.wav lokey=f#3 hikey=e4 pitch_keycenter=60
+<region> sample=092-Pad 4 (choir)/spacevox_67.wav lokey=f4 hikey=a#4 pitch_keycenter=67
+<region> sample=092-Pad 4 (choir)/spacevox_74.wav lokey=b4 hikey=f#5 pitch_keycenter=74
+<region> sample=092-Pad 4 (choir)/spacevox_81.wav lokey=g5 hikey=d6 pitch_keycenter=81
+<region> sample=092-Pad 4 (choir)/spacevox_96.wav lokey=d#6 hikey=f7 pitch_keycenter=96
+<region> sample=092-Pad 4 (choir)/spacevox_108.wav lokey=f#7 hikey=f#8 pitch_keycenter=108
+<region> sample=092-Pad 4 (choir)/supersaw_120.wav lokey=g8 hikey=c9 pitch_keycenter=120

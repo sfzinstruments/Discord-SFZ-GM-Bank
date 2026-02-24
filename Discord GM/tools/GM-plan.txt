@@ -47,8 +47,8 @@ Melodic |  35 |  0   | 035-Electric Bass (pick)     | Electric Bass (pick)     |
 Melodic |  36 |  0   | 036-Fretless Bass            | Fretless Bass            | none
 Melodic |  37 |  0   | 037-Slap Bass 1              | Slap Bass 1              | none
 Melodic |  38 |  0   | 038-Slap Bass 2              | Slap Bass 2              | none
-Melodic |  39 |  0   | 039-Synth Bass 1             | Synth Bass 1             | none
-Melodic |  40 |  0   | 040-Synth Bass 2             | Synth Bass 2             | none
+Melodic |  39 |  0   | 039-Synth Bass 1             | Synth Bass 1             | ASIKWUSpulse synthshop
+Melodic |  40 |  0   | 040-Synth Bass 2             | Synth Bass 2             | ASIKWUSpulse synthshop
 Melodic |  41 |  0   | 041-Violin                   | Violin                   | none
 Melodic |  42 |  0   | 042-Viola                    | Viola                    | none
 Melodic |  43 |  0   | 043-Cello                    | Cello                    | none
@@ -59,11 +59,11 @@ Melodic |  47 |  0   | 047-Orchestral Harp          | Orchestral Harp          |
 Melodic |  48 |  0   | 048-Timpani                  | Timpani                  | none
 Melodic |  49 |  0   | 049-String Ensemble 1        | String Ensemble 1        | none
 Melodic |  50 |  0   | 050-String Ensemble 2        | String Ensemble 2        | none
-Melodic |  51 |  0   | 051-Synth Strings 1          | Synth Strings 1          | none
-Melodic |  52 |  0   | 052-Synth Strings 2          | Synth Strings 2          | none
+Melodic |  51 |  0   | 051-Synth Strings 1          | Synth Strings 1          | ASIKWUSpulse synthshop
+Melodic |  52 |  0   | 052-Synth Strings 2          | Synth Strings 2          | ASIKWUSpulse synthshop
 Melodic |  53 |  0   | 053-Choir Aahs               | Choir Aahs               | none
 Melodic |  54 |  0   | 054-Voice Oohs               | Voice Oohs               | none
-Melodic |  55 |  0   | 055-Synth Choir              | Synth Choir              | none
+Melodic |  55 |  0   | 055-Synth Choir              | Synth Choir              | ASIKWUSpulse synthshop
 Melodic |  56 |  0   | 056-Orchestra Hit            | Orchestra Hit            | none
 Melodic |  57 |  0   | 057-Trumpet                  | Trumpet                  | none
 Melodic |  58 |  0   | 058-Trombone                 | Trombone                 | none
@@ -89,28 +89,28 @@ Melodic |  77 |  0   | 077-Blown bottle             | Blown bottle             |
 Melodic |  78 |  0   | 078-Shakuhachi               | Shakuhachi               | none
 Melodic |  79 |  0   | 079-Whistle                  | Whistle                  | none
 Melodic |  80 |  0   | 080-Ocarina                  | Ocarina                  | none
-Melodic |  81 |  0   | 081-Lead 1 (square)          | Lead 1 (square)          | none
-Melodic |  82 |  0   | 082-Lead 2 (sawtooth)        | Lead 2 (sawtooth)        | none
+Melodic |  81 |  0   | 081-Lead 1 (square)          | Lead 1 (square)          | ASIKWUSpulse synthshop
+Melodic |  82 |  0   | 082-Lead 2 (sawtooth)        | Lead 2 (sawtooth)        | ASIKWUSpulse synthshop
 Melodic |  83 |  0   | 083-Lead 3 (calliope)        | Lead 3 (calliope)        | none
 Melodic |  84 |  0   | 084-Lead 4 (chiff)           | Lead 4 (chiff)           | none
 Melodic |  85 |  0   | 085-Lead 5 (charang)         | Lead 5 (charang)         | none
 Melodic |  86 |  0   | 086-Lead 6 (voice)           | Lead 6 (voice)           | none
 Melodic |  87 |  0   | 087-Lead 7 (fifths)          | Lead 7 (fifths)          | none
 Melodic |  88 |  0   | 088-Lead 8 (bass + lead)     | Lead 8 (bass + lead)     | none
-Melodic |  89 |  0   | 089-Pad 1 (new age)          | Pad 1 (new age)          | none
-Melodic |  90 |  0   | 090-Pad 2 (warm)             | Pad 2 (warm)             | none
-Melodic |  91 |  0   | 091-Pad 3 (polysynth)        | Pad 3 (polysynth)        | none
-Melodic |  92 |  0   | 092-Pad 4 (choir)            | Pad 4 (choir)            | none
-Melodic |  93 |  0   | 093-Pad 5 (bowed)            | Pad 5 (bowed)            | none
+Melodic |  89 |  0   | 089-Pad 1 (new age)          | Pad 1 (new age)          | ASIKWUSpulse synthshop
+Melodic |  90 |  0   | 090-Pad 2 (warm)             | Pad 2 (warm)             | ASIKWUSpulse synthshop
+Melodic |  91 |  0   | 091-Pad 3 (polysynth)        | Pad 3 (polysynth)        | ASIKWUSpulse synthshop
+Melodic |  92 |  0   | 092-Pad 4 (choir)            | Pad 4 (choir)            | ASIKWUSpulse synthshop
+Melodic |  93 |  0   | 093-Pad 5 (bowed)            | Pad 5 (bowed)            | ASIKWUSpulse synthshop
 Melodic |  94 |  0   | 094-Pad 6 (metallic)         | Pad 6 (metallic)         | none
 Melodic |  95 |  0   | 095-Pad 7 (halo)             | Pad 7 (halo)             | none
 Melodic |  96 |  0   | 096-Pad 8 (sweep)            | Pad 8 (sweep)            | none
 Melodic |  97 |  0   | 097-FX 1 (rain)              | FX 1 (rain)              | none
 Melodic |  98 |  0   | 098-FX 2 (soundtrack)        | FX 2 (soundtrack)        | none
-Melodic |  99 |  0   | 099-FX 3 (crystal)           | FX 3 (crystal)           | none
+Melodic |  99 |  0   | 099-FX 3 (crystal)           | FX 3 (crystal)           | ASIKWUSpulse synthshop
 Melodic | 100 |  0   | 100-FX 4 (atmosphere)        | FX 4 (atmosphere)        | none
-Melodic | 101 |  0   | 101-FX 5 (brightness)        | FX 5 (brightness)        | none
-Melodic | 102 |  0   | 102-FX 6 (goblins)           | FX 6 (goblins)           | none
+Melodic | 101 |  0   | 101-FX 5 (brightness)        | FX 5 (brightness)        | ASIKWUSpulse synthshop
+Melodic | 102 |  0   | 102-FX 6 (goblins)           | FX 6 (goblins)           | ASIKWUSpulse synthshop
 Melodic | 103 |  0   | 103-FX 7 (echoes)            | FX 7 (echoes)            | none
 Melodic | 104 |  0   | 104-FX 8 (sci-fi)            | FX 8 (sci-fi)            | none
 Melodic | 105 |  0   | 105-Sitar                    | Sitar                    | Dr. Narayan Bhagawan Raikar Sitar

@@ -1,2 +1,41 @@
-//dummy
-<region> sample=*sine
+// GM Goblin
+// ASIKWUSpulse synthshop
+// Author: @asikwus (https://github.com/asikwus)
+// Description: The external samples are custom designs with OpenMPT, the synth-plugin Vital and/or recordings
+// License: CC0
+
+<group> // 1
+
+// Parameters that affect multiple regions go here
+  
+  group_volume=-6
+  
+  fil_keytrack=15
+  fil_type=lpf_2p       	// One of the many filter types available
+  cutoff=1000         		// freq in hertz
+  resonance=19        		// value in db
+  eg01_sustain=3
+  eg01_level0=-.12	eg01_time0=0
+  eg01_level1=1	eg01_time1=2.5
+  eg01_level2=1	eg01_time2=3
+  eg01_level3=0	eg01_time3=1.25
+  eg01_level4=1	eg01_time4=1
+  eg01_cutoff=3600
+
+  trigger=attack    		// or release or first or legato
+  loop_mode=loop_continuous // or loop_continuous or one_shot or loop_sustain
+  ampeg_attack=1			// value in sec
+  ampeg_decay=0				// value in sec
+  ampeg_sustain=100			// value in percent
+  ampeg_release=2.4			// value in sec
+  
+  
+<region> sample=102-FX 6 (goblins)/synthvox_64.wav lokey=0 hikey=g#4 pitch_keycenter=64
+<region> sample=102-FX 6 (goblins)/synthvox_72.wav lokey=a4 hikey=f7 pitch_keycenter=72 tune=8
+<region> sample=102-FX 6 (goblins)/spacevox_108.wav lokey=f#7 hikey=f#8 pitch_keycenter=108
+<region> sample=102-FX 6 (goblins)/supersaw_120.wav lokey=g8 hikey=c9 pitch_keycenter=120
+  
+<group> // 2
+
+// TODO: Add a chirpy synth sound here, tonal or atonal doesn't matter
+// 
